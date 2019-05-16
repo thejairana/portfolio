@@ -1,33 +1,193 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.resume {
+    width: 210mm;
+    height: 297mm;
+    margin: auto;
+    background: #f2f2f2
+}
+
+.resume-header {
+    background: #374458;
+    padding: 15px 25px;
+}
+
+.resume-header .name {
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: .5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+}
+
+.resume-header .bio {
+    font-size: 16px;
+    color: #4d8bc5;
+    line-height: 19px;
+    font-family: verdana;
+    margin-top: 5px;
+}
+
+.resume-header .desrciption {
+    font-size: 12px;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.personal-details {
+    background: #2b343f;
+    padding: 15px 25px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.personal-details .col-6 {
+    margin-bottom: 8px;
+}
+
+.personal-details span {
+    margin-left: 8px;
+}
+
+.professional-details {
+    background: #f2f2f2;
+    padding: 15px 25px;
+}
+
+.heading {
+    color: #4f90cd;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.position {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.company {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+}
+
+.working-time {
+    font-size: 12px;
+    color: #4f90cd;
+    font-style: italic;
+}
+
+.achievements {
+    font-size: 13px;
+    color: #4f90cd;
+    font-style: italic;
+}
+
+.achievements-list {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-left: 16px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.sub-section {
+    margin-top: 15px;
+}
+
+.side-1 .section:not(:first-child),
+.side-2 .section:not(:first-child) {
+    margin-top: 25px;
+}
+
+.skills span {
+    background: #4f90cd;
+    color: #fff;
+    font-size: 13px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-bottom: 6px;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+.project-name {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.project-desc {
+    font-size: 12px;
+    font-style: italic;
+    color: #888;
+    line-height: 15px;
+}
+
+body {
+    counter-reset: project;
+}
+
+.project-name::before {
+    counter-increment: project;
+    content: counter(project) ". ";
+}
+
+.project:not(:first-child) {
+    margin-top: 8px;
+}
+
+.certificate:not(:first-child) {
+    margin-top: 8px;
+}
+
+.certification {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.certification-desc {
+    font-size: 12px;
+    font-style: italic;
+    color: #888;
+    line-height: 15px;
 }
