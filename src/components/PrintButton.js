@@ -25,9 +25,9 @@ const PrintButton = ({ id, label }) => (<div className="tc mb4 mt2">
                     context['msImageSmoothingEnabled'] = false;
 
                     const contentDataURL = canvas.toDataURL('image/png')
-                    let pdf = new jsPDF('p', 'mm', 'a4'); // A4 size page of PDF
+                    let pdf = new jsPDF('p', 'mm', 'a4', true); // A4 size page of PDF
                     var position = 0;
-                    pdf.addImage(contentDataURL, 'PNG', 0, position, imgWidth, imgHeight)
+                    pdf.addImage(contentDataURL, 'PNG', 0, position, imgWidth, imgHeight, '', 'FAST')
                     pdf.save('theJaiRana-fullStack-Developer.pdf'); // Generated PDF
                 })
 
