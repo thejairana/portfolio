@@ -11,9 +11,9 @@ const PrintButton = ({ id, label }) => (<div className="tc mb4 mt2">
             html2canvas(input, { scale: 2 })
                 .then((canvas) => {
                     var imgWidth = 211;
-                    var pageHeight = 297;
+                    // var pageHeight = 297;
                     var imgHeight = canvas.height * imgWidth / canvas.width;
-                    var heightLeft = imgHeight;
+                    // var heightLeft = imgHeight;
 
                     const context = canvas.getContext('2d');
                     context.scale(2, 2);
