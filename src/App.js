@@ -1,10 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import PrintButton from "./components/PrintButton";
 
 function App() {
   return (
     <div className="container">
+      <PrintButton id={"resume"} label={"Print single page"} />
       <div className="resume" id="resume">
 
         <div className="resume-header">
