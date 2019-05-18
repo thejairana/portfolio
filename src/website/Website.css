@@ -1,3 +1,114 @@
+.main-row {
+    padding: 0px;
+    margin: 0px;
+}
+
 .left-side {
     border-right: 1px solid;
+    padding: 0px;
+}
+
+.name-container {
+    background: #f2f2f2;
+    padding: 30px 20px;
+    text-align: center;
+    height: 150px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.my-name {
+    font-size: 45px;
+    color: #00BCD4;
+    font-family: auto;
+    font-weight: normal;
+    line-height: 45px;
+}
+
+.name-container .full-stack {
+    font-size: 14px;
+    color: #795548;
+    font-family: monospace;
+}
+
+.sidebar {
+    padding: 10px 20px;
+}
+
+.sidebar div {
+    font-size: 18px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+.sidebar i {
+    color: #00BCD4;
+}
+
+.sidebar span {
+    margin-left: 8px;
+}
+
+.right-side {
+    padding: 0px;
+}
+
+.front-page {
+    background-image: url('../assets/home-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.font-page-layer {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    position: relative;
+}
+
+.front-page .front-content {
+    position: absolute;
+    top: 34%;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.front-line-1 {
+    font-size: 40px;
+}
+
+.front-line-1 span {
+    color: #FF5722;
+}
+
+.front-line-2 {
+    font-size: 30px;
+}
+
+.view-my-experience {
+    border: 1px solid #f2f2f2;
+    padding: 10px 16px;
+    width: 200px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+
+.view-my-experience span {
+    display: block;
+    font-size: 18px
+}
+
+.view-my-experience i {
+    font-size: 30px;
+    display: block;
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+.view-my-experience:hover {
+    background: #000;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #000;
 }
