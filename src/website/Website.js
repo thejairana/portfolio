@@ -98,6 +98,24 @@ function Website() {
                     </div>
 
                 </div>
+
+                <div className="apage-section">
+                    <div className="heading">CONTACT</div>
+                    <div className="section-info">
+                        <div className="contact-info">
+                            <i className="fa fa-envelope"></i> <a href="mailto:jkrana008@gmail.com">jkrana008@gmail.com</a>
+                        </div>
+
+                        <div className="contact-info">
+                            <i className="fa fa-github"></i> <a href="https://github.com/jkrana008">github.com/jkrana008</a>
+                        </div>
+
+                        <div className="contact-info">
+                            <i className="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/jai-rana/">linkedin.com/in/jai-rana/</a>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     );

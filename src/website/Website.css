@@ -1,3 +1,10 @@
+/* @import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Stylish&display=swap');
+
+.row {
+    margin: 0px;
+}
+
 .main-row {
     padding: 0px;
     margin: 0px;
@@ -111,4 +118,44 @@
     background: #000;
     cursor: pointer;
     box-shadow: 5px 5px 10px #000;
+}
+
+.heading {
+    background: #008073 !important;
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-family: 'Cinzel', serif;
+}
+
+.section-info {
+    /* background-image: url('../assets/dark-denim-3.png'); */
+    padding: 40px 50px;
+    /* background: #f2f2f2; */
+}
+
+.contact-info {
+    margin: 30px 0px;
+}
+
+.contact-info i {
+    background: #000;
+    color: #fff;
+    width: 55px;
+    vertical-align: middle;
+    text-align: center;
+    height: 55px;
+    border-radius: 50%;
+    line-height: 55px;
+    box-shadow: 3px 4px 6px #000;
+    font-size: 1.6rem;
+}
+
+.contact-info a {
+    margin-left: 15px;
+    font-size: 18px;
+    vertical-align: middle;
+    color: teal;
+    font-family: 'Stylish', sans-serif;
 }

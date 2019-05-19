@@ -24,9 +24,9 @@ function resume1() {
                     <div className="col-6">
                         <i className="fa fa-calendar"></i> <span>15 Aug 1993</span>
                     </div>
-                    <div className="col-6">
+                    {/* <div className="col-6">
                         <i className="fa fa-globe"></i> <span>http://thejairana.me</span>
-                    </div>
+                    </div> */}
                     <div className="col-6">
                         <i className="fa fa-linkedin"></i> <span>https://www.linkedin.com/in/jai-rana/</span>
                     </div>
