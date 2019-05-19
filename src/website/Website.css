@@ -161,26 +161,60 @@
     font-family: 'Stylish', sans-serif;
 }
 
-.education-card{
+.education-card,
+.skills-card {
     padding: 15px 20px;
     border: none;
     box-shadow: 2px 2px 6px grey;
 }
-.college-name a{
+
+.skills-card {
+    background: #fff;
+}
+
+.skills-card .skill {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.skill i,
+.skill span {
+    display: block;
+}
+
+.skill img {
+    width: 60px;
+}
+
+.skill i {
+    font-size: 60px;
+}
+
+.skill span {
+    font-family: 'Stylish', sans-serif;
+    color: #008073;
+}
+
+.college-name a {
     font-size: 25px;
     color: teal;
     line-height: 25px;
 }
-.education-city{
+
+.education-city {
     color: gray;
     font-size: 14px;
 }
-.education-course{
+
+.education-course {
     font-size: 20px;
     color: #FF5722;
     display: block;
 }
-.education-stream{
+
+.education-stream {
     font-size: 13px;
     color: #00BCD4;
     font-style: italic;

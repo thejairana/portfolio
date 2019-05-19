@@ -68,7 +68,7 @@ function Website() {
                         <div>
                             <div className="row">
                                 <div className="col-2">
-                                    <img src={logo} />
+                                    <img src={logo} alt="logo" />
                                 </div>
                                 <div className="col-4">Elogist</div>
                                 <di className="col-6">Full Stack Developer</di>
@@ -99,6 +99,70 @@ function Website() {
 
                 </div>
 
+                {/* Skills Start */}
+                <div className="apage-section">
+                    <div className="heading">SKILLS</div>
+                    <div className="section-info">
+                        <div className="skills-card">
+                            <div className="skill">
+                                <img src={require('../assets/skills/html5.png')} alt="html5" />
+                                <span>HTML5</span>
+                            </div>
+
+                            <div className="skill">
+                                <img src={require('../assets/skills/css3.svg')} alt="css3" />
+                                <span>CSS3</span>
+                            </div>
+
+                            <div className="skill">
+                                <img src={require('../assets/skills/js.png')} alt="js" />
+                                <span>JavaScript</span>
+                            </div>
+
+                            <div className="skill">
+                                <img src={require('../assets/skills/angular.png')} alt="angular" />
+                                <span>Angular</span>
+                            </div>
+
+                            <div className="skill">
+                                <img src={require('../assets/skills/ionic.png')} alt="ionic" />
+                                <span>Ionic</span>
+                            </div>
+
+                            <div className="skill">
+                                <img src={require('../assets/skills/react.png')} alt="react" />
+                                <span>React</span>
+                            </div>
+
+                            <div className="skill">
+                                <img src={require('../assets/skills/nodejs.png')} alt="nodejs" />
+                                <span>NodeJS</span>
+                            </div>
+
+                            <div className="skill">
+                                <img src={require('../assets/skills/mongo.png')} alt="mongo" />
+                                <span>MongoDB</span>
+                            </div>
+
+                            <div className="skill">
+                                <img src={require('../assets/skills/python.png')} alt="pyton" />
+                                <span>Python</span>
+                            </div>
+
+                            <div className="skill">
+                                <img src={require('../assets/skills/selenium.png')} alt="selenium" />
+                                <span>Selenium</span>
+                            </div>
+
+                            <div className="skill">
+                                <img src={require('../assets/skills/git.png')} alt="git" />
+                                <span>GIT</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* Skills End */}
+
                 {/* Education Start */}
                 <div className="apage-section">
                     <div className="heading">EDUCATION</div>
@@ -106,7 +170,7 @@ function Website() {
                         <div className="row">
                             <div className="col-sm-12 col-md-6 col-lg-6">
                                 <div className="card education-card">
-                                    <div className="college-name"><a href="http://www.jnit.org/" target="_blank">Jagannath Gupta Institute of Engineering & Technology (JNIT)</a></div>
+                                    <div className="college-name"><a href="http://www.jnit.org/" target="_blank" rel="noopener noreferrer">Jagannath Gupta Institute of Engineering & Technology (JNIT)</a></div>
                                     <div className="education-city">Jaipur, Rajasthan</div>
                                     <div className="education-info">
                                         <span className="education-course">B. Tech.</span> <span className="education-stream">Computer Science</span>
@@ -117,7 +181,7 @@ function Website() {
                             <div className="col-sm-12 col-md-6 col-lg-6">
                                 <div className="card education-card">
                                     <div className="college-name">
-                                        <a href="http://www.nielit.gov.in/" target="_blank">National Institute of Electronics & Information Technology (NIELIT)</a></div>
+                                        <a href="http://www.nielit.gov.in/" target="_blank" rel="noopener noreferrer">National Institute of Electronics & Information Technology (NIELIT)</a></div>
                                     <div className="education-city">Mthura, Uttar Pradesh</div>
                                     <div className="education-info">
                                         <span className="education-course">O & A Level</span> <span className="education-stream">Computer Science</span>
