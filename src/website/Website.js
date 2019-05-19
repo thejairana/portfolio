@@ -99,6 +99,37 @@ function Website() {
 
                 </div>
 
+                {/* Education Start */}
+                <div className="apage-section">
+                    <div className="heading">EDUCATION</div>
+                    <div className="section-info">
+                        <div className="row">
+                            <div className="col-sm-12 col-md-6 col-lg-6">
+                                <div className="card education-card">
+                                    <div className="college-name"><a href="http://www.jnit.org/" target="_blank">Jagannath Gupta Institute of Engineering & Technology (JNIT)</a></div>
+                                    <div className="education-city">Jaipur, Rajasthan</div>
+                                    <div className="education-info">
+                                        <span className="education-course">B. Tech.</span> <span className="education-stream">Computer Science</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-sm-12 col-md-6 col-lg-6">
+                                <div className="card education-card">
+                                    <div className="college-name">
+                                        <a href="http://www.nielit.gov.in/" target="_blank">National Institute of Electronics & Information Technology (NIELIT)</a></div>
+                                    <div className="education-city">Mthura, Uttar Pradesh</div>
+                                    <div className="education-info">
+                                        <span className="education-course">O & A Level</span> <span className="education-stream">Computer Science</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* Education End */}
+
+                {/* Contact Start */}
                 <div className="apage-section">
                     <div className="heading">CONTACT</div>
                     <div className="section-info">
@@ -116,6 +147,8 @@ function Website() {
 
                     </div>
                 </div>
+                {/* Contact End */}
+
             </div>
         </div>
     );
