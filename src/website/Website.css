@@ -162,13 +162,16 @@
 }
 
 .education-card,
-.skills-card {
+.skills-card,
+.experience-card {
     padding: 15px 20px;
     border: none;
     box-shadow: 2px 2px 6px grey;
 }
 
-.skills-card {
+
+.skills-card,
+.experience-card {
     background: #fff;
 }
 
@@ -218,4 +221,66 @@
     font-size: 13px;
     color: #00BCD4;
     font-style: italic;
+}
+
+.experience-container {
+    margin: 50px;
+}
+
+.experience-card {
+    margin-bottom: 30px;
+}
+
+.experience-header {
+    /* margin: 5px; */
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.experience-company {
+    font-size: 25px;
+}
+
+.experience-position {
+    font-size: 13px;
+    color: teal;
+    font-style: italic;
+    margin-left: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.project-card {
+    background: #fff;
+    box-shadow: 1px 3px 5px gray;
+    margin-bottom: 30px;
+}
+
+.project-card img {
+    width: 100%;
+    height: 240px;
+}
+
+.project-details {
+    padding: 15px;
+}
+
+.project-name a {
+    font-size: 25px;
+    color: #03A9F4;
+    vertical-align: middle;
+}
+
+.project-details i {
+    float: right;
+    vertical-align: middle;
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+    color: teal;
+}
+
+.project-desc {
+    font-size: 12px;
+    font-style: italic;
+    color: #888;
 }

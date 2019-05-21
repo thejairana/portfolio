@@ -1,6 +1,5 @@
 import React from 'react';
 import './Website.css';
-const logo = require('../assets/experience/walle8.png'); // with require
 
 function Website() {
     return (
@@ -61,43 +60,179 @@ function Website() {
                     <div><strong>Current Focus:</strong> Accessibility // React // Design Systems</div>
                 </div>
 
+                {/* Experience Start */}
                 <div className="about-page page-section">
                     <div className="heading">EXPERIENCE</div>
-                    <div>
-                        {/* Header */}
-                        <div>
-                            <div className="row">
-                                <div className="col-2">
-                                    <img src={logo} alt="logo" />
+                    <div className="experience-container">
+                        <div className="row">
+                            <div className="col-sm-12 col-md-12 col-lg-12">
+                                <div className="experience-card">
+                                    {/* Header */}
+                                    <div className="experience-header">
+                                        <div className="row">
+                                            <div className="col-12 experience-company">
+                                                <span>Elogist Solutions</span>
+                                                <span className="experience-position">Full Stack Developer</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* Body */}
+                                    <div>
+                                        <div>DEVELOP PRODUCT</div>
+                                        <ul>
+                                            <li>10 Mobile Apps (walle8, walle8 Parter, Walle8 Petrol Pump, Walle8 Cash Collect, Track App, Booster App, Booster Admin, Load Intelligence App, DOST App, Dost Partner)</li>
+                                            <li>2 Plugins (Call logs Plugin, Location Plugin)</li>
+                                            <li>Automation (Banking, App Testing)</li>
+                                            <li>Dost Dashboard</li>
+                                        </ul>
+                                        <div>ACCOMPLISHMENTS</div>
+                                        <ul>
+                                            <li>Dramatically increased speed of Frontend development, Releasing one app per month.</li>
+                                            <li>Trained 6 Members Team on Angular</li>
+                                            <li>Trained 3 Members Team on Ionic</li>
+                                        </ul>
+                                    </div>
+
+                                    {/* Footer */}
+                                    <div>
+                                        <div>Feb 2018 - Present | Jaipur, Rajasthan</div>
+                                    </div>
                                 </div>
-                                <div className="col-4">Elogist</div>
-                                <di className="col-6">Full Stack Developer</di>
+                            </div>
+
+                            <div className="col-sm-12 col-md-12 col-lg-12">
+                                <div className="experience-card">
+                                    {/* Header */}
+                                    <div className="experience-header">
+                                        <div className="row">
+                                            <div className="col-12 experience-company">
+                                                <span>The RedWheel</span>
+                                                <span className="experience-position">Full Stack Developer</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* Body */}
+                                    <div>
+                                        {/* <div>DEVELOP PRODUCT</div> */}
+                                        <ul>
+                                            <li>Provide Startup Solutions</li>
+                                            <li>Worked on Mobile Apps, Web Apps, Backend</li>
+                                        </ul>
+                                        <div>ACCOMPLISHMENTS</div>
+                                        <ul>
+                                            <li>Developed A JavaScript Plugin Just in an hour</li>
+                                        </ul>
+                                    </div>
+
+                                    {/* Footer */}
+                                    <div>
+                                        <div>July 2017 - Jan 2018 | Jaipur, Rajasthan</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-sm-12 col-md-12 col-lg-12">
+                                <div className="experience-card">
+                                    {/* Header */}
+                                    <div className="experience-header">
+                                        <div className="row">
+                                            <div className="col-12 experience-company">
+                                                <span>Youstart</span>
+                                                <span className="experience-position">Full Stack Developer</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* Body */}
+                                    <div>
+                                        {/* <div>DEVELOP PRODUCT</div> */}
+                                        <ul>
+                                            <li>Worked on different apps</li>
+                                            <li>Worked on Mobile Apps, Web Apps, Backend</li>
+                                        </ul>
+                                        <div>ACCOMPLISHMENTS</div>
+                                        <ul>
+                                            <li>Delived Sparup (2 Apps, 1 Dashboard) in 2 Months</li>
+                                            <li>Created A Chat App As A Trainee in 5 Days. Which is used by Team internally for communication.</li>
+                                        </ul>
+                                    </div>
+
+                                    {/* Footer */}
+                                    <div>
+                                        <div>Jan 2017 - June 2017s | Jaipur, Rajasthan</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        {/* Body */}
-                        <div>
-                            <p>SaaS platform that enables enterprise companies to build, run, and measure their positive impact campaigns</p>
-                            <div>DEVELOP PRODUCT</div>
-                            <ul>
-                                <li>Contribute core features across entire stack (20k+ lines of code, 250+ pulls)</li>
-                                <li>Contribute core features across entire stack (20k+ lines of code, 250+ pulls)</li>
-                                <li>Contribute core features across entire stack (20k+ lines of code, 250+ pulls)</li>
-                                <li>Contribute core features across entire stack (20k+ lines of code, 250+ pulls)</li>
-                            </ul>
-                            <div>ACCOMPLISHMENTS</div>
-                            <ul>
-                                <li>Dramatically increased speed of UI development using atomic, scalable CSS</li>
-                                <li>Dramatically increased speed of UI development using atomic, scalable CSS</li>
-                            </ul>
-                        </div>
 
-                        {/* Footer */}
-                        <div>
-                            <div>Jan 2016 - Present | Boston, MA</div>
-                        </div>
                     </div>
 
                 </div>
+
+                {/* Experience End */}
+
+                {/* Projects Start */}
+                <div className="page-section">
+                    <div className="heading">PROJECTS</div>
+                    <div className="section-info">
+                        <div className="row">
+                            <div className="col-sm-12 col-md-4 col-lg-4">
+                                <div className="project-card">
+                                    <img src={require('../assets/projects/blogspire.jpg')} alt="pp" />
+                                    <div className="project-details">
+                                        <div className="project-name">
+                                            <a href="https://andrewborstein.com/" target="_blank" rel="noopener noreferrer">BlogSpire</a>
+                                            <i className="fa fa-ellipsis-v"></i>
+                                        </div>
+                                        <div className="project-desc">Blogging web app created for the Engineering team at WeSpire.</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-sm-12 col-md-4 col-lg-4">
+                                <div className="project-card">
+                                    <img src={require('../assets/projects/blogspire.jpg')} alt="pp" />
+                                    <div className="project-details">
+                                        <div className="project-name">
+                                            <a href="https://andrewborstein.com/" target="_blank" rel="noopener noreferrer">BlogSpire</a>
+                                            <i className="fa fa-ellipsis-v"></i>
+                                        </div>
+                                        <div className="project-desc">Blogging web app created for the Engineering team at WeSpire.</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-sm-12 col-md-4 col-lg-4">
+                                <div className="project-card">
+                                    <img src={require('../assets/projects/blogspire.jpg')} alt="pp" />
+                                    <div className="project-details">
+                                        <div className="project-name">
+                                            <a href="https://andrewborstein.com/" target="_blank" rel="noopener noreferrer">BlogSpire</a>
+                                            <i className="fa fa-ellipsis-v"></i>
+                                        </div>
+                                        <div className="project-desc">Blogging web app created for the Engineering team at WeSpire.</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-sm-12 col-md-4 col-lg-4">
+                                <div className="project-card">
+                                    <img src={require('../assets/projects/blogspire.jpg')} alt="pp" />
+                                    <div className="project-details">
+                                        <div className="project-name">
+                                            <a href="https://andrewborstein.com/" target="_blank" rel="noopener noreferrer">BlogSpire</a>
+                                            <i className="fa fa-ellipsis-v"></i>
+                                        </div>
+                                        <div className="project-desc">Blogging web app created for the Engineering team at WeSpire.</div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                {/* Projects End */}
+
 
                 {/* Skills Start */}
                 <div className="apage-section">
@@ -216,6 +351,7 @@ function Website() {
             </div>
         </div>
     );
+
 }
 
 export default Website;
