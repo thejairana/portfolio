@@ -253,6 +253,7 @@
     background: #fff;
     box-shadow: 1px 3px 5px gray;
     margin-bottom: 30px;
+    height: 430px;
 }
 
 .project-card img {
@@ -265,22 +266,44 @@
 }
 
 .project-name a {
-    font-size: 25px;
+    font-size: 22px;
     color: #03A9F4;
     vertical-align: middle;
 }
 
-.project-details i {
-    float: right;
-    vertical-align: middle;
-    font-size: 20px;
-    display: block;
-    margin-top: 10px;
-    color: teal;
-}
 
 .project-desc {
     font-size: 12px;
     font-style: italic;
     color: #888;
+}
+
+.project-type {
+    font-style: italic;
+    background: #FF5722;
+    padding: 2px 10px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 10px;
+    float: right;
+    display: block;
+    margin-top: 8px;
+}
+
+.project-technologies {
+    color: teal;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.project-role,
+.project-members {
+    font-size: 12px;
+    color: #795548;
+}
+
+.project-members i,
+.project-role i {
+    margin-right: 5px;
 }
