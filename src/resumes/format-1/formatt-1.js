@@ -6,10 +6,10 @@ function resume1() {
         <div className="resume" id="resume">
 
             <div className="resume-header">
-                <div className="name">JAI RANA (Jay Kumar)</div>
+                <div className="name">JAY KUMAR</div>
                 <div className="bio">Full Stack Developer</div>
                 <div className="desrciption">
-                    I am full stack developer having 2.5 years experience in JavaScript Development. Currently i am working in Elogist as a Team Leader, Managing App & Web Development.
+                    I am full stack developer having 2.5 years experience in JavaScript Development. Currently i am working in Elogist as a Full Stack Developer, Managing Apps & Web Development.
           </div>
             </div>
 
@@ -149,16 +149,16 @@ function resume1() {
                                 <span>JavaScript</span>
                                 <span>Angular</span>
                                 <span>Ionic</span>
+                                <span>CSS</span>
                                 <span>GIT</span>
                             </div>
                         </div>
 
                         <div className="section">
-                            <div className="heading">Others Skills</div>
+                            <div className="heading">Also Worked On</div>
                             <div className="skills">
                                 <span>NodeJS</span>
                                 <span>MongoDB</span>
-                                <span>CSS</span>
                                 <span>Python</span>
                                 <span>Selenium</span>
                                 <span>ReactJS</span>
@@ -215,11 +215,11 @@ function resume1() {
                                 <div className="project-desc">Application & Dashboard for Athlets, Athlet Parents & Coach to manage daily pratices, tasks, & performances.</div>
                             </div>
 
-                            <div className="project">
+                            {/* <div className="project">
                                 <div className="project-name">& This Resume</div>
                                 <div className="achievements">ReatJS, HTML, CSS, jsPdf, html2Canvas</div>
                                 <div className="project-desc">This Resume Created in ReactJS using HTML & CSS. I used jsPdf & html2Canvas to download it into pdf format.</div>
-                            </div>
+                            </div> */}
 
 
                         </div>

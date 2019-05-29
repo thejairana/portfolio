@@ -12,3 +12,10 @@ code {
         monospace;
 }
 
+html {
+    scroll-behavior: smooth !important;
+}
+
+.col-md-10 {
+    scroll-behavior: smooth !important;
+}
