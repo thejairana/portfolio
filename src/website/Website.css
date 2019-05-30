@@ -530,3 +530,7 @@ html {
 #about {
     scroll-behavior: smooth;
 }
+
+.footer-div {
+    height: 45vh;
+}
