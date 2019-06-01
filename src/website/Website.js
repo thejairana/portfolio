@@ -1,6 +1,8 @@
 import React from 'react';
 import './Website.css';
 import Project from './components/Project';
+import Project2 from './components/Project2';
+
 import dataService from '../providers/Data';
 
 class Website extends React.Component {
@@ -25,10 +27,21 @@ class Website extends React.Component {
         this.setState({ projectsHTML: HTML });
     }
 
+    generateHTML2() {
+        let HTML = [];
+        for (const [index, project] of dataService.projects.entries()) {
+            HTML.push(<div key={index} className="col-sm-12 col-md-4 col-lg-4">
+                <Project2 name={project.name} desc={project.description} img={project.image || 'assets/projects/default.jpg'}
+                    url={project.url} type={project.type} role={project.role} tech={project.technology} team={project.teamMembers} />
+            </div>)
+        }
+        this.setState({ projectsHTML: HTML });
+    }
+
 
 
     componentWillMount() {
-        this.generateHTML();
+        this.generateHTML2();
     }
 
     onMenuClick(activeMenu) {

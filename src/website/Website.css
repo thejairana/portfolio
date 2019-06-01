@@ -388,7 +388,8 @@ html {
 }
 
 .experience-card {
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .experience-card img {
@@ -543,25 +544,26 @@ html {
     letter-spacing: 1px;
     font-family: 'PT Sans Narrow', sans-serif;
     font-family: 'Playfair Display', serif;
-    text-shadow: 3px 5px 6px grey;
+    /* text-shadow: 3px 5px 6px grey; */
 }
 
 .about-myself {
     margin-top: 15px;
-    font-size: 20px;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16px;
+    /* font-family: 'PT Sans Narrow', sans-serif; */
     font-family: 'Arvo', serif;
     font-weight: 100;
-    font-family: 'Old Standard TT', serif;
-    text-shadow: 3px 5px 6px grey;
-    font-style: italic;
+    /* font-family: 'Old Standard TT', serif; */
+    /* text-shadow: 3px 5px 6px grey; */
+    /* font-style: italic; */
+    font-family: 'Raleway', sans-serif;
 
 }
 
 .current-focus {
-    font-size: 20px;
-    text-shadow: 3px 5px 6px grey;
-    font-style: italic;
+    font-size: 16px;
+    /* text-shadow: 3px 5px 6px grey; */
+    /* font-style: italic; */
     font-family: 'Playfair Display', serif;
     letter-spacing: .8px;
 }
