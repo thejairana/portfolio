@@ -1,8 +1,7 @@
 
 const about = {
     oneline: 'Full Stack Web Developer Passionate About Coding. Always Ready To Learn New Things & Applying Them.',
-    long: `I'm an innovative Full Stack Web Developer with 2.5 years of work experience developing many kinds of mobile 
-    application & web applications.
+    long: `I'm an innovative Full Stack Web Developer with 2.5 years of work experience developing many kinds of mobile & web applications.
     <br/>Recently I trained my team on Angular & Ionic within 2 weeks and getting 80% success. 
     I have developed products for more than 5 startups with 90% satisfaction and no deadline exceeded, 
     because i know the product development time is more important in startups & I'm also an entrepreneur.
@@ -13,6 +12,83 @@ const about = {
     `,
     currentFocus: ['React'],
 };
+
+const experiences = [
+    {
+        company: 'Elogist Solutions',
+        position: 'Full Stack Developer',
+        about: `At Elogist, we are aggregating and providing services to small fleet owners operating in the open market. We want to place them at par with large fleet owners in terms of input costs, load tariffs and fleet management.`,
+        duration: 'Feb 2018 - Present',
+        location: 'Jaipur, Rajasthan',
+        compnayLogo: 'assets/experience/elogist.jpg',
+        details: [
+            {
+                name: 'DEVELOP PRODUCT',
+                info: [
+                    `10 Mobile Apps (walle8, walle8 Parter, Walle8 Petrol Pump, Walle8 Cash Collect, Track App, Booster App, Booster Admin, Load Intelligence App, DOST App, Dost Partner)`,
+                    `2 Plugins (Call logs Plugin, Location Plugin)`,
+                    `Automation (Banking, App Testing)`,
+                    `Dost Dashboard`
+                ]
+            },
+            {
+                name: 'DEVELOP PRODUCT',
+                info: [
+                    `Dramatically increased speed of Frontend development, Releasing one app per month.`,
+                    `Trained 6 Members Team on Angular`,
+                    `Trained 3 Members Team on Ionic`
+                ]
+            }
+        ]
+    },
+    {
+        company: 'The RedWheel',
+        position: 'Full Stack Developer',
+        about: ``,
+        duration: 'July 2017 - Jan 2018',
+        location: 'Jaipur, Rajasthan',
+        compnayLogo: 'assets/experience/theredwheel.png',
+        details: [
+            {
+                name: 'DEVELOP PRODUCT',
+                info: [
+                    `Provide Startup Solutions`,
+                    `Worked on Mobile Apps, Web Apps, Backend`
+                ]
+            },
+            {
+                name: 'DEVELOP PRODUCT',
+                info: [
+                    `Developed A JavaScript Plugin Just in an hour`
+                ]
+            }
+        ]
+    },
+    {
+        company: 'Youstart',
+        position: 'Full Stack Developer',
+        about: ``,
+        duration: 'Jan 2017 - June 2017',
+        location: 'Jaipur, Rajasthan',
+        compnayLogo: 'assets/experience/youstart.png',
+        details: [
+            {
+                name: 'DEVELOP PRODUCT',
+                info: [
+                    `Worked on different apps`,
+                    `Worked on Mobile Apps, Web Apps, Backend`
+                ]
+            },
+            {
+                name: 'DEVELOP PRODUCT',
+                info: [
+                    `Delived Sparup (2 Apps, 1 Dashboard) in 2 Months`,
+                    `Created A Chat App As A Trainee in 5 Days. Which is used by Team internally for communication.`
+                ]
+            }
+        ]
+    },
+]
 
 const projects = [
     {
@@ -368,4 +444,5 @@ const projects = [
 module.exports = {
     about,
     projects,
+    experiences
 };

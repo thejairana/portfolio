@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Stylish&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Playfair+Display:400i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -282,6 +287,9 @@ html {
     font-size: 40px;
     letter-spacing: 1px;
     font-family: 'Cinzel', serif;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 5px 7px 10px #000;
+    letter-spacing: 5px;
 }
 
 .section-info {
@@ -316,16 +324,14 @@ html {
 }
 
 .education-card,
-.skills-card,
-.experience-card {
+.skills-card {
     padding: 15px 20px;
     border: none;
     box-shadow: 2px 2px 6px grey;
 }
 
 
-.skills-card,
-.experience-card {
+.skills-card {
     background: #fff;
 }
 
@@ -385,18 +391,80 @@ html {
     margin-bottom: 30px;
 }
 
+.experience-card img {
+    width: 100%;
+    border-radius: 40px;
+    /* margin-top: 35px; */
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+    transition: 0.4s;
+    height: 320px;
+}
+
+.experience-card img:hover,
+.ex-card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.ex-card {
+    background: black;
+    border-radius: 10px;
+    height: 320px;
+    /* margin-top: 35px; */
+    overflow: hidden;
+    box-shadow: 4px 4px 10px #000;
+    color: #f2f2f2;
+    padding: 0px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+    transition: 0.4s
+}
+
 .experience-header {
     /* margin: 5px; */
-    border-bottom: 1px solid #e2e2e2;
+    border-bottom: 1px solid cyan;
+    font-family: 'Playfair Display', serif;
+    padding: 5px;
 }
 
 .experience-company {
     font-size: 25px;
 }
 
+.ex-body {
+    padding: 5px 20px;
+    height: 240px;
+}
+
+.ex-about {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+.ex-detail-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    letter-spacing: 1px
+}
+
+.ex-details {
+    font-style: italic;
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.ex-footer {
+    border-top: 1px solid cyan;
+    padding: 5px 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+
 .experience-position {
     font-size: 13px;
-    color: teal;
+    color: cyan;
     font-style: italic;
     margin-left: 10px;
     font-weight: 500;
@@ -467,26 +535,44 @@ html {
 }
 
 .short-bio {
-    border-left: 5px solid #795548;
+    border-left: 5px solid #607D8B;
     font-size: 28px;
     padding: 2px 20px;
-    color: #795548;
+    color: #607D8B;
     line-height: 30px;
     letter-spacing: 1px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 3px 5px 6px grey;
 }
 
 .about-myself {
     margin-top: 15px;
     font-size: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Arvo', serif;
+    font-weight: 100;
+    font-family: 'Old Standard TT', serif;
+    text-shadow: 3px 5px 6px grey;
+    font-style: italic;
+
 }
 
 .current-focus {
     font-size: 20px;
+    text-shadow: 3px 5px 6px grey;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: .8px;
 }
 
 .current-focus span {
     color: teal;
     margin-left: 10px;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-family: 'Old Standard TT', serif;
+
 }
 
 .current-focus span:not(:last-child)::after {

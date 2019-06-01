@@ -25,6 +25,8 @@ class Website extends React.Component {
         this.setState({ projectsHTML: HTML });
     }
 
+
+
     componentWillMount() {
         this.generateHTML();
     }
@@ -114,103 +116,54 @@ class Website extends React.Component {
                         <div className="heading">EXPERIENCE</div>
                         <div className="experience-container">
                             <div className="row">
-                                <div className="col-sm-12 col-md-12 col-lg-12">
-                                    <div className="experience-card">
-                                        {/* Header */}
-                                        <div className="experience-header">
-                                            <div className="row">
-                                                <div className="col-12 experience-company">
-                                                    <span>Elogist Solutions</span>
-                                                    <span className="experience-position">Full Stack Developer</span>
+                                {dataService.experiences.map((experience, index) => {
+                                    return (
+                                        <div className="col-12" key={index}>
+                                            <div className="experience-card">
+                                                <div className="row">
+                                                    <div className={'col-sm-12 col-md-4' + (index % 2 === 0 ? ' order-12' : '')}>
+                                                        <img src={require('../' + experience.compnayLogo)} alt="elogist" />
+                                                    </div>
+                                                    <div className="col-sm-12 col-md-8">
+                                                        <div className="ex-card">
+                                                            {/* Header */}
+                                                            <div className="experience-header">
+                                                                <div className="row">
+                                                                    <div className="col-12 experience-company">
+                                                                        <span>{experience.company}</span>
+                                                                        <span className="experience-position">{experience.position}</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            {/* Body */}
+                                                            <div className="ex-body">
+                                                                <div className="ex-about">{experience.about}</div>
+                                                                {experience.details.map((detail, dIndex) => {
+                                                                    return (
+                                                                        <div key={dIndex}>
+                                                                            <div className="ex-detail-heading ">{detail.name}</div>
+                                                                            <ul className="ex-details">
+                                                                                {detail.info.map((info, key) => {
+                                                                                    return (<li key={key}>{info}</li>)
+                                                                                })}
+                                                                            </ul>
+                                                                        </div>
+                                                                    )
+                                                                })}
+                                                            </div>
+
+                                                            {/* Footer */}
+                                                            <div className="ex-footer">
+                                                                <div><span>{experience.duration}</span> <span>|</span> <span>{experience.location}</span></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        {/* Body */}
-                                        <div>
-                                            <div>DEVELOP PRODUCT</div>
-                                            <ul>
-                                                <li>10 Mobile Apps (walle8, walle8 Parter, Walle8 Petrol Pump, Walle8 Cash Collect, Track App, Booster App, Booster Admin, Load Intelligence App, DOST App, Dost Partner)</li>
-                                                <li>2 Plugins (Call logs Plugin, Location Plugin)</li>
-                                                <li>Automation (Banking, App Testing)</li>
-                                                <li>Dost Dashboard</li>
-                                            </ul>
-                                            <div>ACCOMPLISHMENTS</div>
-                                            <ul>
-                                                <li>Dramatically increased speed of Frontend development, Releasing one app per month.</li>
-                                                <li>Trained 6 Members Team on Angular</li>
-                                                <li>Trained 3 Members Team on Ionic</li>
-                                            </ul>
-                                        </div>
-
-                                        {/* Footer */}
-                                        <div>
-                                            <div>Feb 2018 - Present | Jaipur, Rajasthan</div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="col-sm-12 col-md-12 col-lg-12">
-                                    <div className="experience-card">
-                                        {/* Header */}
-                                        <div className="experience-header">
-                                            <div className="row">
-                                                <div className="col-12 experience-company">
-                                                    <span>The RedWheel</span>
-                                                    <span className="experience-position">Full Stack Developer</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {/* Body */}
-                                        <div>
-                                            {/* <div>DEVELOP PRODUCT</div> */}
-                                            <ul>
-                                                <li>Provide Startup Solutions</li>
-                                                <li>Worked on Mobile Apps, Web Apps, Backend</li>
-                                            </ul>
-                                            <div>ACCOMPLISHMENTS</div>
-                                            <ul>
-                                                <li>Developed A JavaScript Plugin Just in an hour</li>
-                                            </ul>
-                                        </div>
-
-                                        {/* Footer */}
-                                        <div>
-                                            <div>July 2017 - Jan 2018 | Jaipur, Rajasthan</div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="col-sm-12 col-md-12 col-lg-12">
-                                    <div className="experience-card">
-                                        {/* Header */}
-                                        <div className="experience-header">
-                                            <div className="row">
-                                                <div className="col-12 experience-company">
-                                                    <span>Youstart</span>
-                                                    <span className="experience-position">Full Stack Developer</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {/* Body */}
-                                        <div>
-                                            {/* <div>DEVELOP PRODUCT</div> */}
-                                            <ul>
-                                                <li>Worked on different apps</li>
-                                                <li>Worked on Mobile Apps, Web Apps, Backend</li>
-                                            </ul>
-                                            <div>ACCOMPLISHMENTS</div>
-                                            <ul>
-                                                <li>Delived Sparup (2 Apps, 1 Dashboard) in 2 Months</li>
-                                                <li>Created A Chat App As A Trainee in 5 Days. Which is used by Team internally for communication.</li>
-                                            </ul>
-                                        </div>
-
-                                        {/* Footer */}
-                                        <div>
-                                            <div>Jan 2017 - June 2017s | Jaipur, Rajasthan</div>
-                                        </div>
-                                    </div>
-                                </div>
+                                    )
+                                })
+                                }
                             </div>
 
                         </div>
