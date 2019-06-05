@@ -23,20 +23,19 @@ const experiences = [
         compnayLogo: 'assets/experience/elogist.jpg',
         details: [
             {
-                name: 'DEVELOP PRODUCT',
+                name: 'DEVELOPED PRODUCTS',
                 info: [
-                    `10 Mobile Apps (walle8, walle8 Parter, Walle8 Petrol Pump, Walle8 Cash Collect, Track App, Booster App, Booster Admin, Load Intelligence App, DOST App, Dost Partner)`,
-                    `2 Plugins (Call logs Plugin, Location Plugin)`,
-                    `Automation (Banking, App Testing)`,
-                    `Dost Dashboard`
+                    `Developed main product of Elogist "Walle8" and it's co-related products.`,
+                    `Automation System To Reduce The Cost Of Support of Download Banking Data.`,
+                    `Currenlty Managing A Large Scale Product With 14 Members Team`
                 ]
             },
             {
-                name: 'DEVELOP PRODUCT',
+                name: 'ACCOMPLISHMENTS',
                 info: [
-                    `Dramatically increased speed of Frontend development, Releasing one app per month.`,
-                    `Trained 6 Members Team on Angular`,
-                    `Trained 3 Members Team on Ionic`
+                    `Reduce Cost Of Support & Increase Efficiency`,
+                    `Developed More Than 10 Mobile & Web Applications`,
+                    `Trained All Team Over Angular & Ionic`
                 ]
             }
         ]
@@ -44,22 +43,25 @@ const experiences = [
     {
         company: 'The RedWheel',
         position: 'Full Stack Developer',
-        about: ``,
+        about: `The Redwheel was a service based company. It's provide web solutions to startups and small business owners. Like as mobile app development, web app development, website designs and other web solutions.`,
         duration: 'July 2017 - Jan 2018',
         location: 'Jaipur, Rajasthan',
         compnayLogo: 'assets/experience/theredwheel.png',
         details: [
             {
-                name: 'DEVELOP PRODUCT',
+                name: 'DEVELOPED PRODUCTS',
                 info: [
-                    `Provide Startup Solutions`,
-                    `Worked on Mobile Apps, Web Apps, Backend`
+                    `Developed Mobile Apps for SeeADoc Startup`,
+                    `QK Feedback Javascript Plugin`,
+                    `Volkswagen Jaipur Service Booking System`
                 ]
             },
             {
-                name: 'DEVELOP PRODUCT',
+                name: 'ACCOMPLISHMENTS',
                 info: [
-                    `Developed A JavaScript Plugin Just in an hour`
+                    `Developed Products For More Than 5 Startups`,
+                    `Achiving 90% Client Satistication`,
+                    `Delivered All Project On Deadline`
                 ]
             }
         ]
@@ -67,23 +69,24 @@ const experiences = [
     {
         company: 'Youstart',
         position: 'Full Stack Developer',
-        about: ``,
+        about: `Youstart Labs is an IIT-Delhi and BITS- Pilani alumni initiative to prepare today's engineers for future technologies and provide platform for making a great career in software industry.`,
         duration: 'Jan 2017 - June 2017',
         location: 'Jaipur, Rajasthan',
         compnayLogo: 'assets/experience/youstart.png',
         details: [
             {
-                name: 'DEVELOP PRODUCT',
+                name: 'DEVELOPED PRODUCTS',
                 info: [
-                    `Worked on different apps`,
-                    `Worked on Mobile Apps, Web Apps, Backend`
+                    `Sparup Athelets Training Management System`,
+                    `MyLib Degital Libraray For Students`,
+                    `Chat Application For Team Colloboration`
                 ]
             },
             {
-                name: 'DEVELOP PRODUCT',
+                name: 'ACCOMPLISHMENTS',
                 info: [
-                    `Delived Sparup (2 Apps, 1 Dashboard) in 2 Months`,
-                    `Created A Chat App As A Trainee in 5 Days. Which is used by Team internally for communication.`
+                    ``,
+                    ``
                 ]
             }
         ]
@@ -91,16 +94,16 @@ const experiences = [
 ]
 
 const projects = [
-    {
-        "name": "DOST",
-        "type": "Web App",
-        "url": "http://elogist.in/testing/dost",
-        "image": "assets/projects/dost-dashboard.png",
-        "technology": "Angular, CakePHP, PostgreSQL",
-        "role": "Project Management & Technical Support",
-        "teamMembers": "8",
-        "description": "A Digital Operations for Smart Transportation (DOST) System Web App"
-    },
+    // {
+    //     "name": "DOST",
+    //     "type": "Web App",
+    //     "url": "http://elogist.in/testing/dost",
+    //     "image": "assets/projects/dost-dashboard.png",
+    //     "technology": "Angular, CakePHP, PostgreSQL",
+    //     "role": "Project Management & Technical Support",
+    //     "teamMembers": "8",
+    //     "description": "A Digital Operations for Smart Transportation (DOST) System Web App"
+    // },
     {
         "name": "Dost",
         "type": "App",
@@ -109,27 +112,27 @@ const projects = [
         "technology": "Ionic 3, CakePHP, PostgreSQL",
         "role": "Project Management & Technical Support",
         "teamMembers": "3",
-        "description": "A Digital Operations for Smart Transportation (DOST) System Mobile App."
+        "description": "DOST (Digital Operations for Smart Transportation) is digitalized system for the transfort companies to manage their records like as accounting, trips, fuel, documents, maintainence etc."
     },
+    // {
+    //     "name": "Booster",
+    //     "type": "App",
+    //     "url": "",
+    //     "image": "assets/projects/booster.png",
+    //     "technology": "Ionic 3, CakePHP, PostgreSQL",
+    //     "role": "Frontend Development",
+    //     "teamMembers": "2",
+    //     "description": "An Instant Diver Provider Application for Trucks"
+    // },
     {
         "name": "Booster",
-        "type": "App",
-        "url": "",
-        "image": "assets/projects/booster.png",
-        "technology": "Ionic 3, CakePHP, PostgreSQL",
-        "role": "Frontend Development",
-        "teamMembers": "2",
-        "description": "An Instant Diver Provider Application for Trucks"
-    },
-    {
-        "name": "Booster Admin",
         "type": "App",
         "url": "",
         "image": "assets/projects/booster-admin.png",
         "technology": "Ionic 3, CakePHP, PostgreSQL",
         "role": "Frontend Development",
         "teamMembers": "2",
-        "description": "Application to Manage Driver & Trip Details of Trucks."
+        "description": "An Instant Diver Provider Application for Truck Owners. The main goal of this application is to cover large distance in less time."
     },
     {
         "name": "Load Intelligence",
@@ -239,57 +242,58 @@ const projects = [
         "technology": "Ionic 3, NodeJS, ExpressJS, MongoDB",
         "role": "Both Forntend & Backend Development",
         "teamMembers": "1",
-        "description": "A Service Booking, Test Drive, Insurance Bookinh Application"
+        "description": "A mobile application for Volkswagen Customer to booking car service, test drive, buy insurance or to see new offers."
     },
-    {
-        "name": "Volkswagen Jaipur",
-        "type": "Web App",
-        "url": "http://123.63.120.212:8091",
-        "image": "assets/projects/volkswagen-jaipur-dashboard.png",
-        "technology": "Angular 6, NodeJS, ExpressJS, MongoDB",
-        "role": "Both Forntend & Backend Development",
-        "teamMembers": "1",
-        "description": "A Dashboard to manage all request comes from mobile application"
-    },
+    // {
+    //     "name": "Volkswagen Jaipur",
+    //     "type": "Web App",
+    //     "url": "http://123.63.120.212:8091",
+    //     "image": "assets/projects/volkswagen-jaipur-dashboard.png",
+    //     "technology": "Angular 6, NodeJS, ExpressJS, MongoDB",
+    //     "role": "Both Forntend & Backend Development",
+    //     "teamMembers": "1",
+    //     "description": "A Dashboard to manage all request comes from mobile application"
+    // },
     {
         "name": "PeakOk",
         "type": "App",
         "url": "",
-        "image": "",
+        "image": "assets/projects/peakok.jpeg",
         "technology": "Ionic 3, NodeJS, ExpressJS, MongoDB",
         "role": "Both Forntend & Backend Development",
         "teamMembers": "1",
-        "description": "A mobile application to sale marijuana."
+        "description": "The Peak Dispensary began with one goal in mind: to help patients in Oklahoma find the medicinal marijuana that they needed in a safe, comfortable environment"
     },
-    {
-        "name": "PeakOk",
-        "type": "Website",
-        "url": "",
-        "image": "",
-        "technology": "AJAX, NodeJS, ExpressJS, MongoDB, Php",
-        "role": "Both Forntend & Backend Development",
-        "teamMembers": "2",
-        "description": "A Website to sale marijuana."
-    },
-    {
-        "name": "PeakOk",
-        "type": "Web App",
-        "url": "",
-        "image": "",
-        "technology": "Angular 6, NodeJS, ExpressJS, MongoDB",
-        "role": "Both Forntend & Backend Development",
-        "teamMembers": "1",
-        "description": "A Dashboard to manage orders of medicines."
-    },
+    // {
+    //     "name": "PeakOk",
+    //     "type": "Website",
+    //     "url": "",
+    //     "image": "",
+    //     "technology": "AJAX, NodeJS, ExpressJS, MongoDB, Php",
+    //     "role": "Both Forntend & Backend Development",
+    //     "teamMembers": "2",
+    //     "description": "A Website to sale marijuana."
+    // },
+    // {
+    //     "name": "PeakOk",
+    //     "type": "Web App",
+    //     "url": "",
+    //     "image": "assets/projects/peakok.jpeg",
+    //     "technology": "Angular 6, NodeJS, ExpressJS, MongoDB",
+    //     "role": "Both Forntend & Backend Development",
+    //     "teamMembers": "1",
+    //     "description": "A Dashboard to manage orders of medicines."
+    // },
     {
         "name": "QKFeedback",
         "type": "Plugin",
         "url": "https://qkfeedback.com/",
         "image": "assets/projects/qkfeedback.png",
+        "imageHeight": "300px",
         "technology": "JavaScript",
         "role": "Frontend Development",
         "teamMembers": "1",
-        "description": "A Quick Feedback Javascript Plugin which integrate in any webiste by javascript link."
+        "description": "LIVE platform that allows feedback, grievance, survey, schemes & 2-way communication between public & specific government department using smart user interface."
     },
     {
         "name": "SeeADoc",
@@ -299,27 +303,28 @@ const projects = [
         "technology": "Ionic 3, NodeJS, ExpressJS, MongoDB",
         "role": "Both Forntend & Backend Development",
         "teamMembers": "2",
-        "description": "SeeaDoc is scoped to transform the legacy doctor’s appointment booking system to NextGen digitised system "
+        "description": "Worry No more, Your Health Companion SeeaDoc, helps you reach Doctors for Appointments from your mobile. SeeaDoc is scoped to transform the legacy doctor’s appointment booking system to NextGen digitised system "
     },
-    {
-        "name": "SeeADoc Doctor",
-        "type": "App",
-        "url": "https://play.google.com/store/apps/details?id=io.ionic.starterseeadocpro2018",
-        "image": "assets/projects/see-a-doc-doctor.webp",
-        "technology": "Ionic 3, NodeJS, ExpressJS, MongoDB",
-        "role": "Both Forntend & Backend Development",
-        "teamMembers": "2",
-        "description": "A Application For Doctors to Control and Manage all your Appointment Bookings in fingertips."
-    },
+    // {
+    //     "name": "SeeADoc Doctor",
+    //     "type": "App",
+    //     "url": "https://play.google.com/store/apps/details?id=io.ionic.starterseeadocpro2018",
+    //     "image": "assets/projects/see-a-doc-doctor.webp",
+    //     "technology": "Ionic 3, NodeJS, ExpressJS, MongoDB",
+    //     "role": "Both Forntend & Backend Development",
+    //     "teamMembers": "2",
+    //     "description": "A Application For Doctors to Control and Manage all your Appointment Bookings in fingertips."
+    // },
     {
         "name": "Victory India Holidays",
         "type": "Website",
         "url": "http://victoryindiaholidays.com/",
-        "image": "",
+        "image": "assets/projects/victory-india.PNG",
+        "imageHeight": "300px",
         "technology": "HTML, CSS",
         "role": "Frontend Development",
         "teamMembers": "1",
-        "description": "A Travel Agency Website Having Tour Packages & Other Travel Details."
+        "description": "Victory India Holidays came into being in 2006 with a team of professionals to create a travel company of international standards. Today, Victory India Holidays is an established, premier travel management company catering to both corporate & leisure travellers"
     },
     {
         "name": "My JoyRide",
@@ -329,27 +334,27 @@ const projects = [
         "technology": "Ionic 2, NodeJS, ExpressJS, MongoDB",
         "role": "Both Forntend & Backend Development",
         "teamMembers": "1",
-        "description": "A Local Taxi Booking Application."
+        "description": "A Local Taxi Booking Application so any one can book a seat in a shared cab between two points."
     },
-    {
-        "name": "Event Management",
-        "type": "Web App",
-        "url": "",
-        "image": "",
-        "technology": "Angular 4, NodeJS, ExpressJS, MongoDB",
-        "role": "Both Forntend & Backend Development",
-        "teamMembers": "1",
-        "description": "A Event Management System To Manage A Event & Ticket Bookings."
-    },
+    // {
+    //     "name": "Event Management",
+    //     "type": "Web App",
+    //     "url": "",
+    //     "image": "",
+    //     "technology": "Angular 4, NodeJS, ExpressJS, MongoDB",
+    //     "role": "Both Forntend & Backend Development",
+    //     "teamMembers": "1",
+    //     "description": "A Event Management System To Manage A Event & Ticket Bookings."
+    // },
     {
         "name": "GetShortCut",
         "type": "Web App",
         "url": "https://www.getshortcut.co/",
-        "image": "assets/projects/getshortcut.png",
+        "image": "assets/projects/getshortcut-2.png",
         "technology": "Angular 2",
         "role": "Code Optimization",
         "teamMembers": "1",
-        "description": "GetShortCut send the best local barbers & hair stylists directly to Clients Door."
+        "description": "Shortcut is the easiest way to get a haircut on-demand, right in the comfort of your home or office. Our barbers and stylists offer premium services for men, women and kids."
     },
 
     {
@@ -360,48 +365,49 @@ const projects = [
         "technology": "Ionic 1, NodeJS, MongoDB, ExpressJS",
         "role": "Forntend Development",
         "teamMembers": "2",
-        "description": "This app enables players and parents to gain meaningful insights into performance data and allows continuous feedback from coaches"
+        "description": "Sparup Player app enables players and parents to gain meaningful insights into performance data and allows continuous feedback from coaches. And Coach app enables coaches and managers to plan, track and analyze player progress and provide actionable feedback to players"
     },
-    {
-        "name": "SparUp Coach",
-        "type": "App",
-        "url": "https://play.google.com/store/apps/details?id=com.youstart.sparupcoach",
-        "image": "assets/projects/sparup-coach.webp",
-        "technology": "Ionic 1, NodeJS, MongoDB, ExpressJS",
-        "role": "Forntend Development",
-        "teamMembers": "2",
-        "description": "This app enables coaches and managers to plan, track and analyze player progress and provide actionable feedback to players"
-    },
-    {
-        "name": "SparUp",
-        "type": "Web App",
-        "url": "https://www.sparup.com/",
-        "image": "assets/projects/sparup-dashboard.png",
-        "technology": "AngularJS, NodeJS, MongoDB, ExpressJS",
-        "role": "Forntend & Few Backend Development",
-        "teamMembers": "2",
-        "description": "SparUp is a global sports and fitness organization that leverages the power of sports science and data science to provide robust solutions to our clientele"
-    },
+    // {
+    //     "name": "SparUp Coach",
+    //     "type": "App",
+    //     "url": "https://play.google.com/store/apps/details?id=com.youstart.sparupcoach",
+    //     "image": "assets/projects/sparup-coach.webp",
+    //     "technology": "Ionic 1, NodeJS, MongoDB, ExpressJS",
+    //     "role": "Forntend Development",
+    //     "teamMembers": "2",
+    //     "description": "This app enables coaches and managers to plan, track and analyze player progress and provide actionable feedback to players"
+    // },
+    // {
+    //     "name": "SparUp",
+    //     "type": "Web App",
+    //     "url": "https://www.sparup.com/",
+    //     "image": "assets/projects/sparup-dashboard.png",
+    //     "technology": "AngularJS, NodeJS, MongoDB, ExpressJS",
+    //     "role": "Forntend & Few Backend Development",
+    //     "teamMembers": "2",
+    //     "description": "SparUp is a global sports and fitness organization that leverages the power of sports science and data science to provide robust solutions to our clientele"
+    // },
     {
         "name": "MyLib",
         "type": "App",
         "url": "https://play.google.com/store/apps/details?id=com.softbox.mylib&hl=en",
         "image": "assets/projects/mylib.webp",
+        "imageHeight": "100%",
         "technology": "Ionic 2, Loopback, MongoDB",
         "role": "Mainly Frontend, Some Part of Backend Development",
         "teamMembers": "2",
-        "description": "A Online/Offline Libraray App For Children's To Learn Things Quick & Fast."
+        "description": "MyLib is here to empower your child with amusing, simple, reliable and enjoyable learning. MyLib is available online OR offline, you can download your multimedia lessons and access them later when ready."
     },
-    {
-        "name": "Quiz",
-        "type": "Web App",
-        "url": "",
-        "image": "",
-        "technology": "Ionic 2, NodeJS, MongoDB, ExpressJS",
-        "role": "Frontend Development",
-        "teamMembers": "2",
-        "description": "Quiz App Dashboard To Add & Update Quiz Question & Answers."
-    },
+    // {
+    //     "name": "Quiz",
+    //     "type": "Web App",
+    //     "url": "",
+    //     "image": "",
+    //     "technology": "Ionic 2, NodeJS, MongoDB, ExpressJS",
+    //     "role": "Frontend Development",
+    //     "teamMembers": "2",
+    //     "description": "Quiz App Dashboard To Add & Update Quiz Question & Answers."
+    // },
     // {
     //     "name": "Lawctopus*",
     //     "url": "",
@@ -441,8 +447,17 @@ const projects = [
 
 ];
 
+const contacts = [
+    { icon: 'fa fa-envelope', name: 'therana.jai@gmail.com' },
+    { icon: 'fa fa-github', name: 'github.com/thejairana' },
+    { icon: 'fa fa-github', name: 'thejairana.github.io/portfolio' },
+    { icon: 'fa fa-linkedin', name: 'https://www.linkedin.com/in/jai-rana/' },
+    { icon: 'fa fa-mobile', name: '+918385803337, +916378922131' }
+]
+
 module.exports = {
     about,
     projects,
-    experiences
+    experiences,
+    contacts
 };

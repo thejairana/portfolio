@@ -1,12 +1,12 @@
 import React from 'react';
 import './Project2.scss';
 
-function Project2({ name, desc, img, type, tech, role, team, url }) {
+function Project2({ name, desc, img, type, tech, role, team, url, imageSize }) {
     return (
         <div className="pj-container">
             <div className="pj-card">
                 <div className="pj-card__image-container">
-                    <img className="pj-card__image" src={require('../../' + img)} alt={name} />
+                    <img className="pj-card__image" src={require('../../' + img)} alt={name} height={imageSize} />
                 </div>
 
                 <svg className="pj-card__svg" viewBox="0 0 800 500">
@@ -15,8 +15,10 @@ function Project2({ name, desc, img, type, tech, role, team, url }) {
                 </svg>
 
                 <div className="pj-card__content">
-                    <h1 className="pj-card__title">{name}</h1>
-                    <p className="pj-card__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolor praesentium at quod autem omnis, amet eaque unde perspiciatis adipisci possimus quam facere illo et quisquam quia earum nesciunt porro.</p>
+                    <a href={url} target="_blank" rel="noopener noreferrer">
+                        <h1 className="pj-card__title">{name}</h1>
+                        <p className="pj-card__desc">{desc}</p>
+                    </a>
                 </div>
             </div>
         </div>

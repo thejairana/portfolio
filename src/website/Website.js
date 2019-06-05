@@ -32,7 +32,7 @@ class Website extends React.Component {
         for (const [index, project] of dataService.projects.entries()) {
             HTML.push(<div key={index} className="col-sm-12 col-md-4 col-lg-4">
                 <Project2 name={project.name} desc={project.description} img={project.image || 'assets/projects/default.jpg'}
-                    url={project.url} type={project.type} role={project.role} tech={project.technology} team={project.teamMembers} />
+                    url={project.url} type={project.type} role={project.role} tech={project.technology} team={project.teamMembers} imageSize={project.imageHeight} />
             </div>)
         }
         this.setState({ projectsHTML: HTML });
@@ -264,27 +264,58 @@ class Website extends React.Component {
                     {/* Education Start */}
                     <div className="apage-section" id="education">
                         <div className="heading">EDUCATION</div>
-                        <div className="section-info">
-                            <div className="row">
-                                <div className="col-sm-12 col-md-6 col-lg-6">
-                                    <div className="card education-card">
-                                        <div className="college-name"><a href="http://www.jnit.org/" target="_blank" rel="noopener noreferrer">Jagannath Gupta Institute of Engineering & Technology (JNIT)</a></div>
-                                        <div className="education-city">Jaipur, Rajasthan</div>
-                                        <div className="education-info">
-                                            <span className="education-course">B. Tech.</span> <span className="education-stream">Computer Science</span>
+                        <div className="section-info ">
+
+                            <div className="row F1-edu-container">
+                                <div className="col-sm-12 col-md-4 col-lg-4">
+                                    <img className="F1-edu-img" src={require('../assets/education/jnit.png')} alt="jnit" />
+                                </div>
+                                <div className="col-sm-12 col-md-8 col-lg-8">
+                                    <div className="F1-edu-card">
+                                        <div className="F1-edu-card-header"><a href="http://www.jnit.org/" target="_blank" rel="noopener noreferrer">Jagannath Gupta Institute of Engineering & Technology (JNIT)</a></div>
+                                        <div className="F1-edu-cart-content">
+                                            <div className="">
+                                                <i className="fa fa-graduation-cap"></i>
+                                                <span>B. Tech.</span>
+                                            </div>
+                                            <div>
+                                                <i className="fa fa-book"></i>
+                                                <span>Computer Science</span>
+                                            </div>
+                                            <div className="F1-edu-city">
+                                                <i className="fa fa-map-marker"></i>
+                                                <span>Jaipur, Rajasthan</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="row F1-edu-container">
+                                <div className="col-sm-12 col-md-8 col-lg-8">
+                                    <div className="F1-edu-card">
+                                        <div className="F1-edu-card-header">
+                                            <a href="http://www.nielit.gov.in/" target="_blank" rel="noopener noreferrer">National Institute of Electronics & Information Technology (NIELIT)</a>
+                                        </div>
+                                        <div className="F1-edu-cart-content">
+                                            <div className="">
+                                                <i className="fa fa-graduation-cap"></i>
+                                                <span>O & A Level</span>
+                                            </div>
+                                            <div>
+                                                <i className="fa fa-book"></i>
+                                                <span>Computer Science</span>
+                                            </div>
+                                            <div className="F1-edu-city">
+                                                <i className="fa fa-map-marker"></i>
+                                                <span>Mathura, Uttar Pradesh</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div className="col-sm-12 col-md-6 col-lg-6">
-                                    <div className="card education-card">
-                                        <div className="college-name">
-                                            <a href="http://www.nielit.gov.in/" target="_blank" rel="noopener noreferrer">National Institute of Electronics & Information Technology (NIELIT)</a></div>
-                                        <div className="education-city">Mthura, Uttar Pradesh</div>
-                                        <div className="education-info">
-                                            <span className="education-course">O & A Level</span> <span className="education-stream">Computer Science</span>
-                                        </div>
-                                    </div>
+                                <div className="col-sm-12 col-md-4 col-lg-4">
+                                    <img className="F1-edu-img" src={require('../assets/education/nielit.jpg')} alt="nielit" />
                                 </div>
                             </div>
                         </div>
@@ -296,15 +327,19 @@ class Website extends React.Component {
                         <div className="heading">CONTACT</div>
                         <div className="section-info">
                             <div className="contact-info">
-                                <i className="fa fa-envelope"></i> <a href="mailto:jkrana008@gmail.com">jkrana008@gmail.com</a>
+                                <i className="fa fa-envelope"></i> <a href="mailto:therana.jai@gmail.com">therana.jai@gmail.com</a>
                             </div>
 
                             <div className="contact-info">
-                                <i className="fa fa-github"></i> <a href="https://github.com/jkrana008">github.com/jkrana008</a>
+                                <i className="fa fa-github"></i> <a href="https://github.com/jkrana008">github.com/thejairana</a>
                             </div>
 
                             <div className="contact-info">
                                 <i className="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/jai-rana/">linkedin.com/in/jai-rana/</a>
+                            </div>
+
+                            <div className="contact-info">
+                                <i className="fa fa-mobile"></i> <a href="tel:+918385803337">+918385803337</a>, <a href="tel:+916378922131">+916378922131</a>
                             </div>
 
                         </div>
