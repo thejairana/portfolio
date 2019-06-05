@@ -201,61 +201,17 @@ class Website extends React.Component {
                     <div className="apage-section" id="skills">
                         <div className="heading">SKILLS</div>
                         <div className="section-info">
-                            <div className="skills-card">
-                                <div className="skill">
-                                    <img src={require('../assets/skills/html5.png')} alt="html5" />
-                                    <span>HTML5</span>
-                                </div>
-
-                                <div className="skill">
-                                    <img src={require('../assets/skills/css3.svg')} alt="css3" />
-                                    <span>CSS3</span>
-                                </div>
-
-                                <div className="skill">
-                                    <img src={require('../assets/skills/js.png')} alt="js" />
-                                    <span>JavaScript</span>
-                                </div>
-
-                                <div className="skill">
-                                    <img src={require('../assets/skills/angular.png')} alt="angular" />
-                                    <span>Angular</span>
-                                </div>
-
-                                <div className="skill">
-                                    <img src={require('../assets/skills/ionic.png')} alt="ionic" />
-                                    <span>Ionic</span>
-                                </div>
-
-                                <div className="skill">
-                                    <img src={require('../assets/skills/react.png')} alt="react" />
-                                    <span>React</span>
-                                </div>
-
-                                <div className="skill">
-                                    <img src={require('../assets/skills/nodejs.png')} alt="nodejs" />
-                                    <span>NodeJS</span>
-                                </div>
-
-                                <div className="skill">
-                                    <img src={require('../assets/skills/mongo.png')} alt="mongo" />
-                                    <span>MongoDB</span>
-                                </div>
-
-                                <div className="skill">
-                                    <img src={require('../assets/skills/python.png')} alt="pyton" />
-                                    <span>Python</span>
-                                </div>
-
-                                <div className="skill">
-                                    <img src={require('../assets/skills/selenium.png')} alt="selenium" />
-                                    <span>Selenium</span>
-                                </div>
-
-                                <div className="skill">
-                                    <img src={require('../assets/skills/git.png')} alt="git" />
-                                    <span>GIT</span>
-                                </div>
+                            <div className="row">
+                                {dataService.skills.map((skill, index) => {
+                                    return (
+                                        <div className="col-sm-12 col-md-3 col-lg-3 F1-skill-container" key={index}>
+                                            <div className="F1-skill">
+                                                <img src={require('../' + skill.img)} alt={skill.name} />
+                                                <span>{skill.name}</span>
+                                            </div>
+                                        </div>
+                                    );
+                                })}
                             </div>
                         </div>
                     </div>

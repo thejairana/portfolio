@@ -447,6 +447,53 @@ const projects = [
 
 ];
 
+const skills = [
+    {
+        name: 'HTML5',
+        img: 'assets/skills/html5.png'
+    },
+    {
+        name: 'CSS3',
+        img: 'assets/skills/css3.svg'
+    },
+    {
+        name: 'JavaScript',
+        img: 'assets/skills/js.png'
+    },
+    {
+        name: 'Angular',
+        img: 'assets/skills/angular.png'
+    },
+    {
+        name: 'Ionic',
+        img: 'assets/skills/ionic.png'
+    },
+    {
+        name: 'React',
+        img: 'assets/skills/react.png'
+    },
+    {
+        name: 'NodeJS',
+        img: 'assets/skills/nodejs.png'
+    },
+    {
+        name: 'MongoDB',
+        img: 'assets/skills/mongo.png'
+    },
+    {
+        name: 'Python',
+        img: 'assets/skills/python.png'
+    },
+    {
+        name: 'Selenium',
+        img: 'assets/skills/selenium.png'
+    },
+    {
+        name: 'Git',
+        img: 'assets/skills/git.png'
+    },
+]
+
 const contacts = [
     { icon: 'fa fa-envelope', name: 'therana.jai@gmail.com' },
     { icon: 'fa fa-github', name: 'github.com/thejairana' },
@@ -459,5 +506,6 @@ module.exports = {
     about,
     projects,
     experiences,
+    skills,
     contacts
 };
