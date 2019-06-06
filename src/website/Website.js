@@ -49,10 +49,23 @@ class Website extends React.Component {
         this.setState({ activeMenu: activeMenu });
     }
 
+    handleScroll() {
+        const ids = ['about', 'experience', 'projects', 'skills', 'education', 'contact'];
+        for (let i = 0; i < ids.length; i++) {
+            let id = ids[i];
+            let ele = document.getElementById(id);
+            let rect = ele.getBoundingClientRect();
+            if (rect.top <= 0 && (rect.height + rect.y - 100) > 0) {
+                this.setState({ activeMenu: id });
+            }
+        }
+
+    }
+
     render() {
 
         return (
-            <div className="row main-row">
+            <div className="row main-row" onScroll={this.handleScroll.bind(this)}>
                 <div className="col-xs-0 col-sm-0 col-md-2 left-side">
                     <div className="name-container">
                         <div className="my-name ">Jai Rana</div>
