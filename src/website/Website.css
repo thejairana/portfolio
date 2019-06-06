@@ -231,6 +231,7 @@ html {
     background: rgba(0, 0, 0, 0.5);
     height: 100%;
     position: relative;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
 .front-page .front-content {
@@ -243,6 +244,9 @@ html {
 
 .front-line-1 {
     font-size: 100px;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 5px 7px 10px #000;
+    letter-spacing: 5px;
 }
 
 .front-line-1 span {
@@ -251,6 +255,9 @@ html {
 
 .front-line-2 {
     font-size: 30px;
+    text-shadow: 0px 10px 10px;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
 }
 
 .view-my-experience {
@@ -281,7 +288,7 @@ html {
 }
 
 .heading {
-    background: #008073 !important;
+    /* background: #008073 !important; */
     color: #fff;
     padding: 15px 25px;
     font-size: 40px;
@@ -290,6 +297,13 @@ html {
     font-family: 'Playfair Display', serif;
     text-shadow: 5px 7px 10px #000;
     letter-spacing: 5px;
+    background: #0099F7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F11712, #0099F7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F11712, #0099F7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .section-info {
@@ -593,6 +607,7 @@ html {
 
     .front-line-1 {
         font-size: 70px;
+
     }
 
     .front-line-2 {

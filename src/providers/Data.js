@@ -59,7 +59,7 @@ const experiences = [
             {
                 name: 'ACCOMPLISHMENTS',
                 info: [
-                    `Developed Products For More Than 5 Startups`,
+                    `Developed Products For More Than 3 Startups`,
                     `Achiving 90% Client Satistication`,
                     `Delivered All Project On Deadline`
                 ]
@@ -85,6 +85,7 @@ const experiences = [
             {
                 name: 'ACCOMPLISHMENTS',
                 info: [
+                    ``,
                     ``,
                     ``
                 ]

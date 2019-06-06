@@ -2,6 +2,7 @@ import React from 'react';
 import './Website.css';
 import Project from './components/Project';
 import Project2 from './components/Project2';
+import Home1 from './components/home/1/index';
 
 import dataService from '../providers/Data';
 
@@ -52,7 +53,7 @@ class Website extends React.Component {
     render() {
 
         return (
-            <div className="row main-row" >
+            <div className="row main-row">
                 <div className="col-xs-0 col-sm-0 col-md-2 left-side">
                     <div className="name-container">
                         <div className="my-name ">Jai Rana</div>
@@ -90,7 +91,7 @@ class Website extends React.Component {
                             </a>
                         </div>
                         <div className="side-menu">
-                            <a href="#resume" className={this.state.activeMenu === 'resume' ? 'active' : ''} onClick={() => this.onMenuClick('resume')}>
+                            <a href="https://thejairana.github.io/resume/" className={this.state.activeMenu === 'resume' ? 'active' : ''} onClick={() => this.onMenuClick('resume')}>
                                 <i className="fa fa-file"></i> <span>Resume</span>
                             </a>
                         </div>
