@@ -1,10 +1,9 @@
 
 const about = {
     oneline: 'Full Stack Web Developer Passionate About Coding. Always Ready To Learn New Things & Applying Them.',
-    long: `I'm an innovative Full Stack Web Developer with 2.5 years of work experience developing many kinds of mobile & web applications.
-    <br/>Recently I trained my team on Angular & Ionic within 2 weeks and getting 80% success. 
-    I have developed products for more than 5 startups with 90% satisfaction and no deadline exceeded, 
-    because i know the product development time is more important in startups & I'm also an entrepreneur.
+    aboutMe: `I'm an innovative Full Stack Web Developer with 2.5 years of work experience developing many kinds of mobile & web applications.
+    <br/>Recently I trained my team on Angular & Ionic within 3 weeks and getting 80% success. 
+    I have developed products for more than 5 startups with 90% satisfaction.
     <br/>
     As a web developer I love my work and enjoy it. I Learn new things & applied to these things into own work and shared with others.
     I',m very aggressive web developer and always try to finish the job as quick as possible.<br/>
@@ -13,11 +12,22 @@ const about = {
     currentFocus: ['React'],
 };
 
+const old = `I'm an innovative Full Stack Web Developer with 2.5 years of work experience developing many kinds of mobile & web applications.
+<br/>Recently I trained my team on Angular & Ionic within 2 weeks and getting 80% success. 
+I have developed products for more than 5 startups with 90% satisfaction and no deadline exceeded, 
+because i know the product development time is more important in startups & I'm also an entrepreneur.
+<br/>
+As a web developer I love my work and enjoy it. I Learn new things & applied to these things into own work and shared with others.
+I',m very aggressive web developer and always try to finish the job as quick as possible.<br/>
+So that's why I'm always excited to work with startups and make big impact on its growth.`;
+
+
+
 const experiences = [
     {
         company: 'Elogist Solutions',
         position: 'Full Stack Developer',
-        about: `At Elogist, we are aggregating and providing services to small fleet owners operating in the open market. We want to place them at par with large fleet owners in terms of input costs, load tariffs and fleet management.`,
+        about: `At Elogist, we are aggregating and providing services to small fleet owners operating in the open market.We want to place them at par with large fleet owners in terms of input costs, load tariffs and fleet management.`,
         duration: 'Feb 2018 - Present',
         location: 'Jaipur, Rajasthan',
         compnayLogo: 'assets/experience/elogist.jpg',

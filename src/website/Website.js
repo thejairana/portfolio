@@ -56,7 +56,7 @@ class Website extends React.Component {
             <div className="row main-row">
                 <div className="col-xs-0 col-sm-0 col-md-2 left-side">
                     <div className="name-container">
-                        <div className="my-name ">Jai Rana</div>
+                        <div className="my-name ">The Jai Rana</div>
                         <div className="full-stack">Full Stack Developer</div>
                     </div>
                     <div className="sidebar">
@@ -101,12 +101,18 @@ class Website extends React.Component {
                     <div className="front-page">
                         <div className="font-page-layer">
                             <div className="front-content">
-                                <div className="front-line-1">Hello, I'm <span>Jai Rana</span></div>
-                                <div className="front-line-2">A full stack web developer.</div>
+                                <div className="profile-img">
+                                    <img src={require('../assets/contact/contact-image.png')} alt="The Jai Rana" />
+                                </div>
+                                <div className="front-line-1">The<span> Jai Rana</span></div>
+                                <div className="front-line-2">I'm a <b>full stack web developer.</b></div>
                                 {/* <div className="view-my-experience">
                                 <span>View My Experience</span>
                                 <i className="fa fa-arrow-down"></i>
                             </div> */}
+                            </div>
+                            <div className="arrow-down scrollto">
+                                <img src={require('../assets/arrow-down.png')} alt="arrow-down" />
                             </div>
                         </div>
                     </div>
@@ -116,7 +122,7 @@ class Website extends React.Component {
                         <div className="about-container">
                             <div className="short-bio">{dataService.about.oneline}</div>
                             <div className="about-myself" >
-                                <p dangerouslySetInnerHTML={{ __html: dataService.about.long }}></p>
+                                <p dangerouslySetInnerHTML={{ __html: dataService.about.aboutMe }}></p>
                             </div>
                             <div className="current-focus">
                                 <strong>Current Focus:</strong>
@@ -154,7 +160,7 @@ class Website extends React.Component {
                                                                 <div className="ex-about">{experience.about}</div>
                                                                 {experience.details.map((detail, dIndex) => {
                                                                     return (
-                                                                        <div key={dIndex}>
+                                                                        <div key={dIndex} className="ex-details-container">
                                                                             <div className="ex-detail-heading ">{detail.name}</div>
                                                                             <ul className="ex-details">
                                                                                 {detail.info.map((info, key) => {
