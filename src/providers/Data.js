@@ -12,16 +12,6 @@ const about = {
     currentFocus: ['React'],
 };
 
-const old = `I'm an innovative Full Stack Web Developer with 2.5 years of work experience developing many kinds of mobile & web applications.
-<br/>Recently I trained my team on Angular & Ionic within 2 weeks and getting 80% success. 
-I have developed products for more than 5 startups with 90% satisfaction and no deadline exceeded, 
-because i know the product development time is more important in startups & I'm also an entrepreneur.
-<br/>
-As a web developer I love my work and enjoy it. I Learn new things & applied to these things into own work and shared with others.
-I',m very aggressive web developer and always try to finish the job as quick as possible.<br/>
-So that's why I'm always excited to work with startups and make big impact on its growth.`;
-
-
 
 const experiences = [
     {
@@ -95,9 +85,9 @@ const experiences = [
             {
                 name: 'ACCOMPLISHMENTS',
                 info: [
-                    ``,
-                    ``,
-                    ``
+                    `Get appreciation on first project from the client and Boss.`,
+                    `Develop complete front end alone on first project.`,
+                    `1st runner up on weekly code marathon in company.`
                 ]
             }
         ]

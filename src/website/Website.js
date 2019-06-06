@@ -2,7 +2,6 @@ import React from 'react';
 import './Website.css';
 import Project from './components/Project';
 import Project2 from './components/Project2';
-import Home1 from './components/home/1/index';
 
 import dataService from '../providers/Data';
 
@@ -56,7 +55,7 @@ class Website extends React.Component {
             <div className="row main-row">
                 <div className="col-xs-0 col-sm-0 col-md-2 left-side">
                     <div className="name-container">
-                        <div className="my-name ">The Jai Rana</div>
+                        <div className="my-name ">Jai Rana</div>
                         <div className="full-stack">Full Stack Developer</div>
                     </div>
                     <div className="sidebar">
@@ -105,14 +104,16 @@ class Website extends React.Component {
                                     <img src={require('../assets/contact/contact-image.png')} alt="The Jai Rana" />
                                 </div>
                                 <div className="front-line-1">The<span> Jai Rana</span></div>
-                                <div className="front-line-2">I'm a <b>full stack web developer.</b></div>
+                                <div className="front-line-2">I'm a <b>Full Stack Developer.</b></div>
                                 {/* <div className="view-my-experience">
                                 <span>View My Experience</span>
                                 <i className="fa fa-arrow-down"></i>
                             </div> */}
                             </div>
                             <div className="arrow-down scrollto">
-                                <img src={require('../assets/arrow-down.png')} alt="arrow-down" />
+                                <a href="#about">
+                                    <img src={require('../assets/arrow-down.png')} alt="arrow-down" />
+                                </a>
                             </div>
                         </div>
                     </div>

@@ -231,7 +231,7 @@ html {
 }
 
 .font-page-layer {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
     height: 100%;
     position: relative;
 
@@ -314,13 +314,15 @@ html {
 }
 
 .front-line-1 span {
-    color: #38ffee;
+    color: #8BC34A;
 }
 
 .front-line-2 {
     font-size: 22px;
     color: #fff;
     font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 8px;
 }
 
 .view-my-experience {
