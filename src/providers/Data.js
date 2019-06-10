@@ -95,71 +95,113 @@ const experiences = [
 ]
 
 const projects = [
-    // {
-    //     "name": "DOST",
-    //     "type": "Web App",
-    //     "url": "http://elogist.in/testing/dost",
-    //     "image": "assets/projects/dost-dashboard.png",
-    //     "technology": "Angular, CakePHP, PostgreSQL",
-    //     "role": "Project Management & Technical Support",
-    //     "teamMembers": "8",
-    //     "description": "A Digital Operations for Smart Transportation (DOST) System Web App"
-    // },
+    {
+        "name": "DOST",
+        "type": "Web App",
+        "company": "Elogist",
+        "url": "http://elogist.in/testing/dost",
+        "image": {
+            "width": "200%",
+            "height": "150%",
+            "src": "assets/projects/dost-dashboard.png",
+        },
+        "technology": "Angular, CakePHP, PostgreSQL",
+        "role": "Trained Team on Angular, Frontend Support",
+        "teamMembers": "8",
+        "description": `DOST (Digital Operations for Smart Transportation) is a platform for transport companies to manage all things on a single dashboard, 
+        Such as accounting, trips, fuel, maintenance, documents, Live monitoring etc. It is a complete package that transporters wants.`
+    },
     {
         "name": "Dost",
         "type": "App",
+        "company": "Elogist",
         "url": "",
-        "image": "assets/projects/dost-app.png",
+        "image": {
+            "width": "100%",
+            "height": "auto",
+            "src": "assets/projects/dost-app.png"
+        },
         "technology": "Ionic 3, CakePHP, PostgreSQL",
         "role": "Project Management & Technical Support",
         "teamMembers": "3",
-        "description": "DOST (Digital Operations for Smart Transportation) is digitalized system for the transfort companies to manage their records like as accounting, trips, fuel, documents, maintainence etc."
+        "description": `It is mobile application for DOST (Digital Operations for Smart Transportation) users so they can view and manage all records on 
+        mobile phone. It is developed in Ionic 4 and used a custom plugin for call logs read. Coll logs plugin read call history on every call and send 
+        it to server.`
     },
-    // {
-    //     "name": "Booster",
-    //     "type": "App",
-    //     "url": "",
-    //     "image": "assets/projects/booster.png",
-    //     "technology": "Ionic 3, CakePHP, PostgreSQL",
-    //     "role": "Frontend Development",
-    //     "teamMembers": "2",
-    //     "description": "An Instant Diver Provider Application for Trucks"
-    // },
     {
         "name": "Booster",
         "type": "App",
+        "company": "Elogist",
         "url": "",
-        "image": "assets/projects/booster-admin.png",
+        "image": {
+            "width": "100%",
+            "height": "auto",
+            "src": "assets/projects/booster.png",
+        },
         "technology": "Ionic 3, CakePHP, PostgreSQL",
         "role": "Frontend Development",
         "teamMembers": "2",
-        "description": "An Instant Diver Provider Application for Truck Owners. The main goal of this application is to cover large distance in less time."
+        "description": `A mobile application to provide drivers (Booster) for transport companies on demand. The main concept of this mobile application is 
+        to cut the half time of transportation. For example a lorry will take 6 days from Gandhidham to Delhi, after using booster it takes only 2.5 or 3 days.`
+    },
+    {
+        "name": "Booster Admin",
+        "type": "App",
+        "company": "Elogist",
+        "url": "",
+        "image": {
+            "width": "100%",
+            "height": "auto",
+            "src": "assets/projects/booster-admin.png",
+        },
+        "technology": "Ionic 3, CakePHP, PostgreSQL",
+        "role": "Frontend Development",
+        "teamMembers": "2",
+        "description": `A mobile application for Elogist internal team to manage booster (Drivers) and trips. In this application support team assign 
+        boosters to lorries (Trucks) and manage boosters availability. It was a revolutionary product of Elogist. it shut down because of high cost & 
+        no funding raised.`
     },
     {
         "name": "Load Intelligence",
         "type": "App",
+        "company": "Elogist",
         "url": "",
-        "image": "assets/projects/load-intelligence.png",
+        "image": {
+            "width": "100%",
+            "height": "auto",
+            "src": "assets/projects/load-intelligence.png",
+        },
         "technology": "Ionic 3, CakePHP, PostgreSQL, Graphhopper, JAVA",
         "role": "Frontend Development",
         "teamMembers": "2",
-        "description": "An Intelliget System for Logistics Owners To CalCulate Their Profit & Cost."
+        "description": `It was another product of Elogist to suggest best route for truck. The main concept of this product was to get highest profit on a 
+        trip (can be round trip). It calculate overall cost & profit of trip and suggest best route. It also suggest availability of load on routes.`
     },
     {
         "name": "Track",
         "type": "App",
-        "url": "",
-        "image": "assets/projects/track.webp",
+        "company": "Elogist",
+        "url": "https://play.google.com/store/apps/details?id=com.axes.axestrack&hl=en",
+        "image": {
+            "width": "100%",
+            "height": "auto",
+            "src": "assets/projects/track.webp"
+        },
         "technology": "Ionic 3, .Net, PostgreSQL",
         "role": "Frontend Development",
         "teamMembers": "2",
-        "description": "A Mobile Applications for Axestrack Customers to Track Their Vehicles."
+        "description": ``
     },
     {
         "name": "Walle8",
         "type": "App",
+        "company": "Elogist",
         "url": "https://play.google.com/store/apps/details?id=www.walle8.com",
-        "image": "assets/projects/walle8.png",
+        "image": {
+            "width": "100%",
+            "height": "auto",
+            "src": "assets/projects/walle8.png"
+        },
         "technology": "Ionic 3, CakePHP, PostgreSQL",
         "role": "Frontend Development",
         "teamMembers": "2",
@@ -168,8 +210,13 @@ const projects = [
     {
         "name": "Walle8 Partner",
         "type": "App",
+        "company": "Elogist",
         "url": "",
-        "image": "",
+        "image": {
+            "width": "100%",
+            "height": "100%",
+            "src": ""
+        },
         "technology": "Ionic 3, CakePHP, PostgreSQL",
         "role": "Frontend Development",
         "teamMembers": "2",
@@ -178,8 +225,13 @@ const projects = [
     {
         "name": "Walle8 Petrol Pump",
         "type": "App",
+        "company": "Elogist",
         "url": "",
-        "image": "assets/projects/walle8-ro-app.png",
+        "image": {
+            "width": "100%",
+            "height": "auto",
+            "src": "assets/projects/walle8-ro-app.png"
+        },
         "technology": "Ionic 3, CakePHP, PostgreSQL",
         "role": "Frontend Development",
         "teamMembers": "2",
@@ -188,8 +240,13 @@ const projects = [
     {
         "name": "Walle8 CCA",
         "type": "App",
+        "company": "Elogist",
         "url": "",
-        "image": "assets/projects/walle8-cca-app.png",
+        "image": {
+            "width": "100%",
+            "height": "auto",
+            "src": "assets/projects/walle8-cca-app.png"
+        },
         "technology": "Ionic 3, CakePHP, PostgreSQL",
         "role": "Frontend Development",
         "teamMembers": "2",
@@ -198,8 +255,13 @@ const projects = [
     {
         "name": "App Testing",
         "type": "Automation",
+        "company": "Elogist",
         "url": "",
-        "image": "assets/projects/app-testing-automation.png",
+        "image": {
+            "width": "100%",
+            "height": "auto",
+            "src": "assets/projects/app-testing-automation.png"
+        },
         "technology": "Python, Appium",
         "role": "Developer",
         "teamMembers": "2",
@@ -208,8 +270,13 @@ const projects = [
     {
         "name": "Banking",
         "type": "Automation",
+        "company": "Elogist",
         "url": "",
-        "image": "assets/projects/banking-automation.png",
+        "image": {
+            "width": "100%",
+            "height": "auto",
+            "src": "assets/projects/banking-automation.png"
+        },
         "technology": "Python, Selenium, JavaScript",
         "role": "Developer",
         "teamMembers": "2",
@@ -218,8 +285,13 @@ const projects = [
     {
         "name": "Calllogs",
         "type": "Plugin",
+        "company": "Elogist",
         "url": "",
-        "image": "assets/projects/cordova-plugin.jpg",
+        "image": {
+            "width": "100%",
+            "height": "100%",
+            "src": "assets/projects/cordova-plugin.jpg",
+        },
         "technology": "Java, JavaScript, Cordova",
         "role": "Javascript Development",
         "teamMembers": "2",
@@ -228,8 +300,13 @@ const projects = [
     {
         "name": "Location",
         "type": "Plugin",
+        "company": "Elogist",
         "url": "",
-        "image": "assets/projects/cordova-plugin.jpg",
+        "image": {
+            "width": "100%",
+            "height": "100%",
+            "src": "assets/projects/cordova-plugin.jpg"
+        },
         "technology": "Java, JavaScript, Cordova",
         "role": "Javascript Development",
         "teamMembers": "2",
@@ -238,58 +315,88 @@ const projects = [
     {
         "name": "Volkswagen Jaipur",
         "type": "App",
+        "company": "Redwheel",
         "url": "https://play.google.com/store/apps/details?id=com.sanghi.motrs",
-        "image": "assets/projects/volkswagen-jaipur.webp",
+        "image": {
+            "width": "100%",
+            "height": "100%",
+            "src": "assets/projects/volkswagen-jaipur.webp"
+        },
         "technology": "Ionic 3, NodeJS, ExpressJS, MongoDB",
         "role": "Both Forntend & Backend Development",
         "teamMembers": "1",
         "description": "A mobile application for Volkswagen Customer to booking car service, test drive, buy insurance or to see new offers."
     },
-    // {
-    //     "name": "Volkswagen Jaipur",
-    //     "type": "Web App",
-    //     "url": "http://123.63.120.212:8091",
-    //     "image": "assets/projects/volkswagen-jaipur-dashboard.png",
-    //     "technology": "Angular 6, NodeJS, ExpressJS, MongoDB",
-    //     "role": "Both Forntend & Backend Development",
-    //     "teamMembers": "1",
-    //     "description": "A Dashboard to manage all request comes from mobile application"
-    // },
+    {
+        "name": "Volkswagen Jaipur",
+        "type": "Web App",
+        "company": "Redwheel",
+        "url": "http://123.63.120.212:8091",
+        "image": {
+            "width": "100%",
+            "height": "100%",
+            "src": "assets/projects/volkswagen-jaipur-dashboard.png"
+        },
+        "technology": "Angular 6, NodeJS, ExpressJS, MongoDB",
+        "role": "Both Forntend & Backend Development",
+        "teamMembers": "1",
+        "description": "A Dashboard to manage all request comes from mobile application"
+    },
     {
         "name": "PeakOk",
         "type": "App",
+        "company": "Redwheel",
         "url": "",
-        "image": "assets/projects/peakok.jpeg",
+        "image": {
+            "width": "100%",
+            "height": "100%",
+            "src": "assets/projects/peakok.jpeg"
+        },
         "technology": "Ionic 3, NodeJS, ExpressJS, MongoDB",
         "role": "Both Forntend & Backend Development",
         "teamMembers": "1",
         "description": "The Peak Dispensary began with one goal in mind: to help patients in Oklahoma find the medicinal marijuana that they needed in a safe, comfortable environment"
     },
-    // {
-    //     "name": "PeakOk",
-    //     "type": "Website",
-    //     "url": "",
-    //     "image": "",
-    //     "technology": "AJAX, NodeJS, ExpressJS, MongoDB, Php",
-    //     "role": "Both Forntend & Backend Development",
-    //     "teamMembers": "2",
-    //     "description": "A Website to sale marijuana."
-    // },
-    // {
-    //     "name": "PeakOk",
-    //     "type": "Web App",
-    //     "url": "",
-    //     "image": "assets/projects/peakok.jpeg",
-    //     "technology": "Angular 6, NodeJS, ExpressJS, MongoDB",
-    //     "role": "Both Forntend & Backend Development",
-    //     "teamMembers": "1",
-    //     "description": "A Dashboard to manage orders of medicines."
-    // },
+    {
+        "name": "PeakOk",
+        "type": "Website",
+        "company": "Redwheel",
+        "url": "",
+        "image": {
+            "width": "100%",
+            "height": "100%",
+            "src": ""
+        },
+        "technology": "AJAX, NodeJS, ExpressJS, MongoDB, Php",
+        "role": "Both Forntend & Backend Development",
+        "teamMembers": "2",
+        "description": "A Website to sale marijuana."
+    },
+    {
+        "name": "PeakOk",
+        "type": "Web App",
+        "company": "Redwheel",
+        "url": "",
+        "image": {
+            "width": "100%",
+            "height": "auto",
+            "src": "assets/projects/peakok.jpeg"
+        },
+        "technology": "Angular 6, NodeJS, ExpressJS, MongoDB",
+        "role": "Both Forntend & Backend Development",
+        "teamMembers": "1",
+        "description": "A Dashboard to manage orders of medicines."
+    },
     {
         "name": "QKFeedback",
         "type": "Plugin",
+        "company": "Redwheel",
         "url": "https://qkfeedback.com/",
-        "image": "assets/projects/qkfeedback.png",
+        "image": {
+            "width": "100%",
+            "height": "100%",
+            "src": "assets/projects/qkfeedback.png",
+        },
         "imageHeight": "300px",
         "technology": "JavaScript",
         "role": "Frontend Development",
@@ -299,28 +406,43 @@ const projects = [
     {
         "name": "SeeADoc",
         "type": "App",
+        "company": "Redwheel",
         "url": "https://play.google.com/store/apps/details?id=io.ionic.starterseeadoc2018",
-        "image": "assets/projects/see-a-doc-patient.webp",
+        "image": {
+            "width": "100%",
+            "height": "auto",
+            "src": "assets/projects/see-a-doc-patient.webp"
+        },
         "technology": "Ionic 3, NodeJS, ExpressJS, MongoDB",
         "role": "Both Forntend & Backend Development",
         "teamMembers": "2",
         "description": "Worry No more, Your Health Companion SeeaDoc, helps you reach Doctors for Appointments from your mobile. SeeaDoc is scoped to transform the legacy doctor’s appointment booking system to NextGen digitised system "
     },
-    // {
-    //     "name": "SeeADoc Doctor",
-    //     "type": "App",
-    //     "url": "https://play.google.com/store/apps/details?id=io.ionic.starterseeadocpro2018",
-    //     "image": "assets/projects/see-a-doc-doctor.webp",
-    //     "technology": "Ionic 3, NodeJS, ExpressJS, MongoDB",
-    //     "role": "Both Forntend & Backend Development",
-    //     "teamMembers": "2",
-    //     "description": "A Application For Doctors to Control and Manage all your Appointment Bookings in fingertips."
-    // },
+    {
+        "name": "SeeADoc Doctor",
+        "type": "App",
+        "company": "Redwheel",
+        "url": "https://play.google.com/store/apps/details?id=io.ionic.starterseeadocpro2018",
+        "image": {
+            "width": "100%",
+            "height": "100%",
+            "src": "assets/projects/see-a-doc-doctor.webp"
+        },
+        "technology": "Ionic 3, NodeJS, ExpressJS, MongoDB",
+        "role": "Both Forntend & Backend Development",
+        "teamMembers": "2",
+        "description": "A Application For Doctors to Control and Manage all your Appointment Bookings in fingertips."
+    },
     {
         "name": "Victory India Holidays",
         "type": "Website",
+        "company": "Redwheel",
         "url": "http://victoryindiaholidays.com/",
-        "image": "assets/projects/victory-india.PNG",
+        "image": {
+            "width": "100%",
+            "height": "auto",
+            "src": "assets/projects/victory-india.PNG"
+        },
         "imageHeight": "300px",
         "technology": "HTML, CSS",
         "role": "Frontend Development",
@@ -330,28 +452,43 @@ const projects = [
     {
         "name": "My JoyRide",
         "type": "App",
+        "company": "Redwheel",
         "url": "https://play.google.com/store/apps/details?id=com.myjoyrideapp",
-        "image": "assets/projects/myjoyride.webp",
+        "image": {
+            "width": "100%",
+            "height": "100%",
+            "src": "assets/projects/myjoyride.webp",
+        },
         "technology": "Ionic 2, NodeJS, ExpressJS, MongoDB",
         "role": "Both Forntend & Backend Development",
         "teamMembers": "1",
         "description": "A Local Taxi Booking Application so any one can book a seat in a shared cab between two points."
     },
-    // {
-    //     "name": "Event Management",
-    //     "type": "Web App",
-    //     "url": "",
-    //     "image": "",
-    //     "technology": "Angular 4, NodeJS, ExpressJS, MongoDB",
-    //     "role": "Both Forntend & Backend Development",
-    //     "teamMembers": "1",
-    //     "description": "A Event Management System To Manage A Event & Ticket Bookings."
-    // },
+    {
+        "name": "Event Management",
+        "type": "Web App",
+        "company": "Redwheel",
+        "url": "",
+        "image": {
+            "width": "100%",
+            "height": "auto",
+            "src": ""
+        },
+        "technology": "Angular 4, NodeJS, ExpressJS, MongoDB",
+        "role": "Both Forntend & Backend Development",
+        "teamMembers": "1",
+        "description": "A Event Management System To Manage A Event & Ticket Bookings."
+    },
     {
         "name": "GetShortCut",
         "type": "Web App",
+        "company": "Redwheel",
         "url": "https://www.getshortcut.co/",
-        "image": "assets/projects/getshortcut-2.png",
+        "image": {
+            "width": "100%",
+            "height": "auto",
+            "src": "assets/projects/getshortcut-2.png"
+        },
         "technology": "Angular 2",
         "role": "Code Optimization",
         "teamMembers": "1",
@@ -361,91 +498,121 @@ const projects = [
     {
         "name": "SparUp",
         "type": "App",
+        "company": "Youstart",
         "url": "https://play.google.com/store/apps/details?id=com.youstart.sparup",
-        "image": "assets/projects/sparup-player.webp",
+        "image": {
+            "width": "100%",
+            "height": "auto",
+            "src": "assets/projects/sparup-player.webp"
+        },
         "technology": "Ionic 1, NodeJS, MongoDB, ExpressJS",
         "role": "Forntend Development",
         "teamMembers": "2",
         "description": "Sparup Player app enables players and parents to gain meaningful insights into performance data and allows continuous feedback from coaches. And Coach app enables coaches and managers to plan, track and analyze player progress and provide actionable feedback to players"
     },
-    // {
-    //     "name": "SparUp Coach",
-    //     "type": "App",
-    //     "url": "https://play.google.com/store/apps/details?id=com.youstart.sparupcoach",
-    //     "image": "assets/projects/sparup-coach.webp",
-    //     "technology": "Ionic 1, NodeJS, MongoDB, ExpressJS",
-    //     "role": "Forntend Development",
-    //     "teamMembers": "2",
-    //     "description": "This app enables coaches and managers to plan, track and analyze player progress and provide actionable feedback to players"
-    // },
-    // {
-    //     "name": "SparUp",
-    //     "type": "Web App",
-    //     "url": "https://www.sparup.com/",
-    //     "image": "assets/projects/sparup-dashboard.png",
-    //     "technology": "AngularJS, NodeJS, MongoDB, ExpressJS",
-    //     "role": "Forntend & Few Backend Development",
-    //     "teamMembers": "2",
-    //     "description": "SparUp is a global sports and fitness organization that leverages the power of sports science and data science to provide robust solutions to our clientele"
-    // },
+    {
+        "name": "SparUp Coach",
+        "type": "App",
+        "company": "Youstart",
+        "url": "https://play.google.com/store/apps/details?id=com.youstart.sparupcoach",
+        "image": {
+            "width": "100%",
+            "height": "100%",
+            "src": "assets/projects/sparup-coach.webp"
+        },
+        "technology": "Ionic 1, NodeJS, MongoDB, ExpressJS",
+        "role": "Forntend Development",
+        "teamMembers": "2",
+        "description": "This app enables coaches and managers to plan, track and analyze player progress and provide actionable feedback to players"
+    },
+    {
+        "name": "SparUp",
+        "type": "Web App",
+        "company": "Youstart",
+        "url": "https://www.sparup.com/",
+        "image": {
+            "width": "100%",
+            "height": "100%",
+            "src": "assets/projects/sparup-dashboard.png"
+        },
+        "technology": "AngularJS, NodeJS, MongoDB, ExpressJS",
+        "role": "Forntend & Few Backend Development",
+        "teamMembers": "2",
+        "description": "SparUp is a global sports and fitness organization that leverages the power of sports science and data science to provide robust solutions to our clientele"
+    },
     {
         "name": "MyLib",
         "type": "App",
+        "company": "Youstart",
         "url": "https://play.google.com/store/apps/details?id=com.softbox.mylib&hl=en",
-        "image": "assets/projects/mylib.webp",
+        "image": {
+            "width": "100%",
+            "height": "100%",
+            "src": "assets/projects/mylib.webp"
+        },
         "imageHeight": "100%",
         "technology": "Ionic 2, Loopback, MongoDB",
         "role": "Mainly Frontend, Some Part of Backend Development",
         "teamMembers": "2",
         "description": "MyLib is here to empower your child with amusing, simple, reliable and enjoyable learning. MyLib is available online OR offline, you can download your multimedia lessons and access them later when ready."
     },
-    // {
-    //     "name": "Quiz",
-    //     "type": "Web App",
-    //     "url": "",
-    //     "image": "",
-    //     "technology": "Ionic 2, NodeJS, MongoDB, ExpressJS",
-    //     "role": "Frontend Development",
-    //     "teamMembers": "2",
-    //     "description": "Quiz App Dashboard To Add & Update Quiz Question & Answers."
-    // },
-    // {
-    //     "name": "Lawctopus*",
-    //     "url": "",
-    //     "image": "",
-    //     "technology": "Ionic 2, WP APIs",
-    //     "role": "Forntend Development",
-    //     "teamMembers": "1",
-    //     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere."
-    // },
-    // {
-    //     "name": "Game Gold Coins Website*****",
-    //     "url": "",
-    //     "image": "",
-    //     "technology": "Angular",
-    //     "role": "Frontend Development",
-    //     "teamMembers": "1",
-    //     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere."
-    // },
-    // {
-    //     "name": "NM Finance Loan Dashboard with AADHAR Verification*****",
-    //     "url": "",
-    //     "image": "",
-    //     "technology": "HTML, Ajax, NodeJS, AADHAR Api, Material",
-    //     "role": "Both Frontend & Backend Development",
-    //     "teamMembers": "1",
-    //     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere."
-    // },
-    // {
-    //     "name": "Chat Application With Firebase",
-    //     "url": "",
-    //     "image": "",
-    //     "technology": "Ionic 1, Firebase",
-    //     "role": "Both Frontend & Backend Development",
-    //     "teamMembers": "1",
-    //     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere."
-    // },
-
+    {
+        "name": "Quiz",
+        "type": "Web App",
+        "company": "Youstart",
+        "url": "",
+        "image": {
+            "width": "",
+            "height": "",
+            "src": ""
+        },
+        "technology": "Ionic 2, NodeJS, MongoDB, ExpressJS",
+        "role": "Frontend Development",
+        "teamMembers": "2",
+        "description": "Quiz App Dashboard To Add & Update Quiz Question & Answers."
+    },
+    {
+        "name": "Lawctopus*",
+        "url": "",
+        "company": "Redwheel",
+        "image": {
+            "width": "",
+            "height": "",
+            "src": ""
+        },
+        "technology": "Ionic 2, WP APIs",
+        "role": "Forntend Development",
+        "teamMembers": "1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere."
+    },
+    {
+        "name": "Game Gold Coins Website*****",
+        "url": "",
+        "company": "Redwheel",
+        "image": {
+            "width": "",
+            "height": "",
+            "src": ""
+        },
+        "technology": "Angular",
+        "role": "Frontend Development",
+        "teamMembers": "1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere."
+    },
+    {
+        "name": "NM Finance Loan Dashboard with AADHAR Verification*****",
+        "url": "",
+        "company": "Redwheel",
+        "image": {
+            "width": "",
+            "height": "",
+            "src": ""
+        },
+        "technology": "HTML, Ajax, NodeJS, AADHAR Api, Material",
+        "role": "Both Frontend & Backend Development",
+        "teamMembers": "1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere."
+    }
 ];
 
 const skills = [

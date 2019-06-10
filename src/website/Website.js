@@ -16,34 +16,6 @@ class Website extends React.Component {
         // this.generateHTML();
     }
 
-    generateHTML() {
-        let HTML = [];
-        for (const [index, project] of dataService.projects.entries()) {
-            HTML.push(<div key={index} className="col-sm-12 col-md-4 col-lg-4">
-                <Project name={project.name} desc={project.description} img={project.image || 'assets/projects/default.jpg'}
-                    url={project.url} type={project.type} role={project.role} tech={project.technology} team={project.teamMembers} />
-            </div>)
-        }
-        this.setState({ projectsHTML: HTML });
-    }
-
-    generateHTML2() {
-        let HTML = [];
-        for (const [index, project] of dataService.projects.entries()) {
-            HTML.push(<div key={index} className="col-sm-12 col-md-4 col-lg-4">
-                <Project2 name={project.name} desc={project.description} img={project.image || 'assets/projects/default.jpg'}
-                    url={project.url} type={project.type} role={project.role} tech={project.technology} team={project.teamMembers} imageSize={project.imageHeight} />
-            </div>)
-        }
-        this.setState({ projectsHTML: HTML });
-    }
-
-
-
-    componentWillMount() {
-        this.generateHTML2();
-    }
-
     onMenuClick(activeMenu) {
         console.log('activeMenu:', activeMenu);
         this.setState({ activeMenu: activeMenu });
@@ -210,9 +182,45 @@ class Website extends React.Component {
                     <div className="page-section" id="projects">
                         <div className="heading">PROJECTS</div>
                         <div className="section-info">
-                            <div className="row">
-                                {this.state.projectsHTML}
-                            </div>
+
+                            {dataService.projects.map((project, index) => {
+                                return (
+                                    <div className="F2-pro-container" key={index}>
+                                        <div className={'F2-pro-compnay ' + project.company}>
+                                            {project.company.split('').map((character, i) => {
+                                                return (<span key={i}>{character.toUpperCase()}</span>);
+                                            })}
+                                        </div>
+                                        <div className="F2-pro-details">
+                                            <div className="F2-pro-name">
+                                                <i className="fa fa-folder"></i> <span>{project.name}</span> <span className="F2-pro-type">({project.type})</span>
+                                            </div>
+                                            <div className="F2-pro-tech">
+                                                <i className="fa fa-cogs"></i>
+                                                {project.technology.split(',').map((tech, i) => {
+                                                    return (<span key={i}>{tech}</span>)
+                                                })}
+                                            </div>
+                                            <div className="F2-pro-role">
+                                                <i className="fa fa-user"></i>
+                                                <span>{project.role}</span>
+                                            </div>
+                                            <div className="F2-pro-desc">
+                                                <i className="fa fa-info-circle"></i>
+                                                <span>{project.description}</span>
+                                            </div>
+
+                                            <div className="F2-pro-members">
+                                                <i className="fa fa-users"></i>
+                                                <span>{project.teamMembers} {project.teamMembers === 1 ? 'Member' : 'Members'}</span>
+                                            </div>
+                                        </div>
+                                        <div className="F2-pro-gallary">
+                                            <img src={require('../' + project.image.src)} width={project.image.width} height={project.image.height} alt={project.name} />
+                                        </div>
+                                    </div>
+                                );
+                            })}
                         </div>
                     </div>
                     {/* Projects End */}

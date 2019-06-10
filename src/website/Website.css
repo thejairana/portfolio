@@ -809,3 +809,120 @@ html {
 }
 
 /* SKILLS END */
+
+.F2-pro-container {
+    margin-bottom: 50px;
+}
+
+.F2-pro-compnay {
+    width: 44px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-size: 29px;
+    text-align: center;
+    background: #4CAF50;
+    padding: 5px 10px;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 1px 10px 6px #555;
+    font-weight: 500;
+    height: 320px;
+    max-height: auto;
+}
+
+.F2-pro-compnay span {
+    display: block;
+}
+
+.F2-pro-details {
+    display: inline-block;
+    width: 50%;
+    background: #000;
+    color: #fff;
+    height: 320px;
+    vertical-align: top;
+    padding: 5px 16px;
+}
+
+.F2-pro-gallary {
+    display: inline-block;
+    width: calc(50% - 44px);
+    vertical-align: top;
+    height: 320px;
+    overflow: hidden;
+    background: #000;
+}
+
+
+
+.F2-pro-name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.F2-pro-name i {
+    display: none;
+}
+
+.F2-pro-type {
+    font-size: 13px;
+    font-style: italic;
+    color: #FFEB3B;
+    letter-spacing: 1px;
+}
+
+.F2-pro-tech {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.F2-pro-tech i {
+    display: none;
+}
+
+.F2-pro-tech span {
+    margin-right: 10px;
+    background: #4CAF50;
+    border-radius: 16px;
+    padding: 2px 15px 4px;
+    vertical-align: middle;
+    /* line-height: 17px; */
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.F2-pro-role {
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.F2-pro-role i {
+    margin-right: 10px;
+}
+
+.F2-pro-desc {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.F2-pro-desc span {
+    margin-left: 10px;
+}
+
+.F2-pro-members {
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.F2-pro-members span {
+    margin-left: 10px;
+}
+
+.Redwheel,
+.Youstart {
+    line-height: 38px;
+}
