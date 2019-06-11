@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5bb9575868836c6b68a110c807ff5937",
+    "revision": "68fefedab1c8869c139019d16b178771",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "da154cd737388ea80e34",
+    "revision": "26bfd907478331871e16",
     "url": "/portfolio/static/css/2.9632b5b4.chunk.css"
   },
   {
-    "revision": "267340c97e88776d9a7a",
-    "url": "/portfolio/static/css/main.d1c22958.chunk.css"
+    "revision": "2f2ca649c34ea3ed5feb",
+    "url": "/portfolio/static/css/main.65838b3f.chunk.css"
   },
   {
-    "revision": "da154cd737388ea80e34",
-    "url": "/portfolio/static/js/2.442beb12.chunk.js"
+    "revision": "26bfd907478331871e16",
+    "url": "/portfolio/static/js/2.a2352ee6.chunk.js"
   },
   {
-    "revision": "267340c97e88776d9a7a",
-    "url": "/portfolio/static/js/main.196d8884.chunk.js"
+    "revision": "2f2ca649c34ea3ed5feb",
+    "url": "/portfolio/static/js/main.f95aaa17.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "df99eca95acc83511d006fc4759b7b8d",
     "url": "/portfolio/static/media/banking-automation.df99eca9.png"
+  },
+  {
+    "revision": "ff044bdaf80ec179a3dc82ef03f5f21e",
+    "url": "/portfolio/static/media/bg-3.ff044bda.jpg"
   },
   {
     "revision": "1feff85a65b99d2240ca5c4b5a3f74d2",
@@ -72,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/dost-dashboard.ef78fd17.png"
   },
   {
+    "revision": "1cc76a4cbc7b0f4ad296fc5a50b6cb6f",
+    "url": "/portfolio/static/media/elogist.1cc76a4c.jpg"
+  },
+  {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
     "url": "/portfolio/static/media/fontawesome-webfont.674f50d2.eot"
   },
@@ -92,12 +100,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
+    "revision": "75606cad9ae7fb8c6d6fd0f4f016af08",
+    "url": "/portfolio/static/media/get-short-cut.75606cad.png"
+  },
+  {
+    "revision": "9113bf5e38d31a86acc13585fb9983eb",
+    "url": "/portfolio/static/media/getshortcut-2.9113bf5e.png"
+  },
+  {
     "revision": "11566bd9e9d133e31f7eaaa703fa7934",
     "url": "/portfolio/static/media/getshortcut.11566bd9.png"
   },
   {
     "revision": "7c89237023385f0e515b3630d1136d6a",
     "url": "/portfolio/static/media/home-bg-1.7c892370.jpg"
+  },
+  {
+    "revision": "bb05ef3154f1dcbd93719b0b0d4e1dc2",
+    "url": "/portfolio/static/media/home-bg-2.bb05ef31.jpg"
   },
   {
     "revision": "f449fdd3c76033aca9115399727e0412",
@@ -132,8 +152,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/myjoyride.ac943f47.webp"
   },
   {
+    "revision": "da56d296e274e2ac9101617830ec7375",
+    "url": "/portfolio/static/media/mylib.da56d296.jpg"
+  },
+  {
     "revision": "e2a0148cbf519ecd264a27d519c7453b",
     "url": "/portfolio/static/media/mylib.e2a0148c.webp"
+  },
+  {
+    "revision": "8c1297f3a80fec8ab56c3fc771100b49",
+    "url": "/portfolio/static/media/nielit.8c1297f3.jpg"
   },
   {
     "revision": "c502658a509d27b53679b3ef73c0d82f",
@@ -142,6 +170,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4d7f4617db6532faa142c2e4d0335f85",
     "url": "/portfolio/static/media/peak-ok-website.4d7f4617.png"
+  },
+  {
+    "revision": "8e24e93236076240a04c861f0e13b49d",
+    "url": "/portfolio/static/media/peakok-web-app.8e24e932.png"
+  },
+  {
+    "revision": "3a85bb3c32526a045391a429d916376f",
+    "url": "/portfolio/static/media/peakok.3a85bb3c.jpeg"
   },
   {
     "revision": "eb37770da1b1b3de38f319c71055cde8",
@@ -180,8 +216,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/sparup-player.58662369.webp"
   },
   {
+    "revision": "ecb9e2b7ffb8530af8cff6b3e01ad6f6",
+    "url": "/portfolio/static/media/theredwheel.ecb9e2b7.png"
+  },
+  {
     "revision": "bff532c54b04ee4ffd431df199f5704b",
     "url": "/portfolio/static/media/track.bff532c5.webp"
+  },
+  {
+    "revision": "be60640e377170482522d89bcad77030",
+    "url": "/portfolio/static/media/victory-india.be60640e.PNG"
   },
   {
     "revision": "77b714e86f4f090c77280ebc7cf3435f",
@@ -196,6 +240,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/walle8-cca-app.ad7fee69.png"
   },
   {
+    "revision": "82977ba7e7d8f7f388605bd10f3688a0",
+    "url": "/portfolio/static/media/walle8-partner.82977ba7.png"
+  },
+  {
     "revision": "0e49005f01700c5a32b65ac1f47c83b8",
     "url": "/portfolio/static/media/walle8-ro-app.0e49005f.png"
   },
@@ -206,5 +254,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b3d9fca9e129f086b78024336344c518",
     "url": "/portfolio/static/media/walle8.b3d9fca9.png"
+  },
+  {
+    "revision": "8701520c42409e80299414d74d8ef27d",
+    "url": "/portfolio/static/media/youstart.8701520c.png"
   }
 ]);
