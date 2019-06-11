@@ -112,10 +112,10 @@ class Website extends React.Component {
                             <div className="about-myself" >
                                 <p dangerouslySetInnerHTML={{ __html: dataService.about.aboutMe }}></p>
                             </div>
-                            <div className="current-focus">
+                            {/* <div className="current-focus">
                                 <strong>Current Focus:</strong>
                                 {dataService.about.currentFocus.map((focus, i) => <span key={i}>{focus}</span>)}
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 

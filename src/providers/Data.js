@@ -3,11 +3,11 @@ const about = {
     oneline: 'Full Stack Web Developer Passionate About Coding. Always Ready To Learn New Things & Applying Them.',
     aboutMe: `I'm an innovative Full Stack Web Developer with 2.5 years of work experience developing many kinds of mobile & web applications.
     <br/>Recently I trained my team on Angular & Ionic within 3 weeks and getting 80% success. 
-    I have developed products for more than 5 startups with 90% satisfaction.
+    I have developed products for more than 3 startups with 90% satisfaction.
     <br/>
-    As a web developer I love my work and enjoy it. I Learn new things & applied to these things into own work and shared with others.
+    As a web developer I love my work and enjoy it. I always Learn new things & applied to these things into own work and also shared with others.
     I',m very aggressive web developer and always try to finish the job as quick as possible.<br/>
-    So that's why I'm always excited to work with startups and make big impact on its growth.
+    So that's why I'm always excited to work with startups and make big impact on their growth.
     `,
     currentFocus: ['React'],
 };

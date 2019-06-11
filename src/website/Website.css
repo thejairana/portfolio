@@ -368,7 +368,7 @@ html {
 
 .heading {
     /* background: #008073 !important; */
-    color: #fff;
+    color: #000;
     padding: 15px 25px;
     font-size: 40px;
     letter-spacing: 1px;
@@ -376,13 +376,8 @@ html {
     font-family: 'Playfair Display', serif;
     text-shadow: 5px 7px 10px #000;
     letter-spacing: 5px;
-    background: #0099F7;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F11712, #0099F7);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F11712, #0099F7);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #e2e2e2;
+    text-align: center;
 }
 
 .section-info {
@@ -635,44 +630,36 @@ html {
 }
 
 .short-bio {
-    border-left: 5px solid #607D8B;
+    border-left: 5px solid #4CAF50;
     font-size: 28px;
     padding: 2px 20px;
-    color: #607D8B;
+    color: #000;
     line-height: 30px;
     letter-spacing: 1px;
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-family: 'Playfair Display', serif;
-    /* text-shadow: 3px 5px 6px grey; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 .about-myself {
     margin-top: 15px;
     font-size: 16px;
-    /* font-family: 'PT Sans Narrow', sans-serif; */
     font-family: 'Arvo', serif;
     font-weight: 100;
-    /* font-family: 'Old Standard TT', serif; */
-    /* text-shadow: 3px 5px 6px grey; */
-    /* font-style: italic; */
     font-family: 'Raleway', sans-serif;
-
 }
 
 .current-focus {
     font-size: 16px;
-    /* text-shadow: 3px 5px 6px grey; */
-    /* font-style: italic; */
     font-family: 'Playfair Display', serif;
     letter-spacing: .8px;
 }
 
 .current-focus span {
-    color: teal;
+    color: #000;
     margin-left: 10px;
     font-style: italic;
     letter-spacing: 1px;
     font-family: 'Old Standard TT', serif;
+    font-weight: 600;
 
 }
 
