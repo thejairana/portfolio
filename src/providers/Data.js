@@ -25,17 +25,17 @@ const experiences = [
             {
                 name: 'DEVELOPED PRODUCTS',
                 info: [
-                    `Developed main product of Elogist "Walle8" and it's co-related products.`,
-                    `Automation System To Reduce The Cost Of Support of Download Banking Data.`,
-                    `Currenlty Managing A Large Scale Product With 14 Members Team`
+                    `Developed main product of Elogist "Walle8" & "DOST".`,
+                    `Builded a automation system to download banking transactions.`,
+                    `DOST, a complete package for transport companies.`
                 ]
             },
             {
                 name: 'ACCOMPLISHMENTS',
                 info: [
-                    `Reduce Cost Of Support & Increase Efficiency`,
-                    `Developed More Than 10 Mobile & Web Applications`,
-                    `Trained All Team Over Angular & Ionic`
+                    `Developed more than 10 applications. `,
+                    `Developed main product of Elogist "Walle8"`,
+                    `Trained a team on angular & ionic`
                 ]
             }
         ]
