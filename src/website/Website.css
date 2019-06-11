@@ -835,7 +835,7 @@ html {
 
 .F2-pro-details {
     display: inline-block;
-    width: 50%;
+    width: 40%;
     background: #000;
     color: #fff;
     height: 320px;
@@ -845,7 +845,7 @@ html {
 
 .F2-pro-gallary {
     display: inline-block;
-    width: calc(50% - 44px);
+    width: calc(60% - 44px);
     vertical-align: top;
     height: 320px;
     overflow: hidden;
@@ -879,6 +879,7 @@ html {
 
 .F2-pro-tech i {
     display: none;
+    color: #4CAF50;
 }
 
 .F2-pro-tech span {
@@ -890,6 +891,8 @@ html {
     /* line-height: 17px; */
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
+    color: #000;
+    font-weight: 600;
 }
 
 .F2-pro-role {
@@ -899,6 +902,7 @@ html {
 
 .F2-pro-role i {
     margin-right: 10px;
+    color: #4CAF50;
 }
 
 .F2-pro-desc {
@@ -907,6 +911,10 @@ html {
     font-size: 16px;
     margin-top: 10px;
     letter-spacing: 1px;
+}
+
+.F2-pro-desc i {
+    color: #4CAF50;
 }
 
 .F2-pro-desc span {
@@ -920,6 +928,10 @@ html {
 
 .F2-pro-members span {
     margin-left: 10px;
+}
+
+.F2-pro-members i {
+    color: #4CAF50;
 }
 
 .Redwheel,

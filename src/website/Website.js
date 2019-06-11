@@ -216,7 +216,7 @@ class Website extends React.Component {
                                             </div>
                                         </div>
                                         <div className="F2-pro-gallary">
-                                            <img src={require('../' + project.image.src)} width={project.image.width} height={project.image.height} alt={project.name} />
+                                            <img src={require('../' + (project.image.src || 'assets/projects/default.jpg'))} width={project.image.width} height={project.image.height} alt={project.name} />
                                         </div>
                                     </div>
                                 );
