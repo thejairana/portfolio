@@ -22,6 +22,7 @@ class Website extends React.Component {
     }
 
     handleScroll() {
+        this.setState({ activeMenu: '' });
         const ids = ['about', 'experience', 'projects', 'skills', 'education', 'contact'];
         for (let i = 0; i < ids.length; i++) {
             let id = ids[i];
@@ -75,7 +76,8 @@ class Website extends React.Component {
                             </a>
                         </div>
                         <div className="side-menu">
-                            <a href="https://thejairana.github.io/resume/" className={this.state.activeMenu === 'resume' ? 'active' : ''} onClick={() => this.onMenuClick('resume')}>
+                            <a href="https://thejairana.github.io/resume/" className={this.state.activeMenu === 'resume' ? 'active' : ''} onClick={() => this.onMenuClick('resume')}
+                                target="_blank" rel="noopener noreferrer">
                                 <i className="fa fa-file"></i> <span>Resume</span>
                             </a>
                         </div>
