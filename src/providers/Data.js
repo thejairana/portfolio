@@ -51,17 +51,16 @@ const experiences = [
             {
                 name: 'DEVELOPED PRODUCTS',
                 info: [
-                    `Developed Mobile Apps for SeeADoc Startup`,
+                    `Mobile application for SeeADoc.`,
                     `QK Feedback Javascript Plugin`,
-                    `Volkswagen Jaipur Service Booking System`
+                    `Service booking system for Volkswagen Jaipur`
                 ]
             },
             {
                 name: 'ACCOMPLISHMENTS',
                 info: [
-                    `Developed Products For More Than 3 Startups`,
-                    `Achiving 90% Client Satistication`,
-                    `Delivered All Project On Deadline`
+                    `Worked with more than 3 startups`,
+                    `Upto 90% client satistication`
                 ]
             }
         ]
@@ -85,9 +84,8 @@ const experiences = [
             {
                 name: 'ACCOMPLISHMENTS',
                 info: [
-                    `Get appreciation on first project from the client and Boss.`,
-                    `Develop complete front end alone on first project.`,
-                    `1st runner up on weekly code marathon in company.`
+                    `Geted appreciation in first project from the client and Boss.`,
+                    `Developed complete front end alone on first project.`
                 ]
             }
         ]
